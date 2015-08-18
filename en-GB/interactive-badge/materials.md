@@ -1,6 +1,6 @@
 ---
 title: Boat Race Materials
 layout: materials
-volunteer-resources: 
+volunteer-resources: InteractiveBadge.hex
 project-resources: 
 ---

@@ -1,9 +1,6 @@
 ---
 title: Interactive Badge — Notes for Club Leaders
-language: en-GB
-embeds: "*.png"
-materials: [""]
-...
+---
 
 #Introduction:
 In this project, children will learn ... by making ...
