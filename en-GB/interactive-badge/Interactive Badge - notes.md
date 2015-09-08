@@ -3,17 +3,18 @@ title: Interactive Badge — Notes for Club Leaders
 ---
 
 #Introduction:
-In this project, children will learn ... by making ...
+In this project, children will learn how to use events to execute sequences of instructions, by making an interactive badge. Pressing the buttons on the micro:bit will change the image that's displayed.
 
 #Resources
-For this project, the ... microbit editor should be used.
+For this project, the [Code Kingdoms](http://jumpto.cc/mb-new) microbit editor should be used.
 
-You can find a completed version of this project at <a href="http://">/wmyvz</a>, and the compiled .hex file can be downloaded by clicking the 'Download Project Materials' link for this project, which contains:
+You can find a completed version of this project at <a href="http://">/xxxxx</a>, and the compiled .hex file can be downloaded by clicking the 'Download Project Materials' link for this project, which contains:
 
-+ RateYourMates.hex
++ InteractiveBadge.hex
 
 #Learning Objectives
-+ This is a consolidation project, providing an opportunity to use the skills learnt in the previous projects.
++ Events (`onStart`,`onPressA` and `onPressB`);
++ Sequencing instructions.
 
 #Challenges
 + "..." - ...;
