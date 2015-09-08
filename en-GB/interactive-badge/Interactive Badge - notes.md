@@ -17,4 +17,5 @@ You can find a completed version of this project at <a href="http://">/xxxxx</a>
 + Sequencing instructions.
 
 #Challenges
-+ "..." - ...;
++ "Displaying a sad face" - adding code to a new `onPressB` event;
++ "Create your own interactive badge!" - consolidation on skills learnt in this project.

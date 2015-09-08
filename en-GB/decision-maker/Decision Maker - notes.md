@@ -13,8 +13,10 @@ You can find a completed version of this project at <a href="http://">/xxxxx</a>
 + DecisionMaker.hex
 
 #Learning Objectives
-+ Selection (`if` and `if...ilse` blocks);
++ Selection (`if` and `if...else` blocks);
 + The `random` block.
 
 #Challenges
-+ 
++ "Fixing the scrolling text!" - Changing the number in a `say` block to fix a problem with the speed of scrolling text.
++ "Multiple answers" - Consolidating use if `if` blocks, by adding 'No' and 'Ask again' answers.
++ "Pass the bomb" - Creating a game using the skills learnt in this project.
