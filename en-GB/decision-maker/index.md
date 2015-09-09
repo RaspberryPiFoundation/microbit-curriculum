@@ -8,7 +8,7 @@ new: true
 
 # Introduction { .intro }
 
-You are going to turn your micro:bit into a decision maker. Simply ask the micro:bit a quesition and press a button (or shake) to find out the answer!
+You are going to turn your micro:bit into a decision maker. Simply ask the micro:bit a quesition and press a button to find out the answer!
 
 ![screenshot](images/decision-final.png)
 
@@ -65,7 +65,7 @@ Let's get your micro:bit to make a decision by randomly choosiong a number (`0` 
 
 + Add a new `onPressA` event to your code.
 
-![screenshot](decision-onPressA.png)
+![screenshot](images/decision-onPressA.png)
 
 + Let's create a new variable to store the answer. Click the 'Library' icon and then click 'Globals'.
 
@@ -73,7 +73,7 @@ Let's get your micro:bit to make a decision by randomly choosiong a number (`0` 
 
 + Click the `+` to create a new variable called `answer`.
 
-![screenshot](images/ecision-answer.png)
+![screenshot](images/decision-answer.png)
 
 + Drag your new `answer` variable into your `onPressA` event.
 
@@ -128,4 +128,7 @@ screenshot not created yet.
 ## Save your project { .save }
 
 ## Challenge: Pass the bomb {.challenge}
-??too hard?
+...
+
+## Challenge: Shake your micro:bit {.challenge}
+...

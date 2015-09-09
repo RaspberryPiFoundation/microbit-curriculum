@@ -151,7 +151,7 @@ This is how your code should look:
 
 ![screenshot](images/badge-final-animated.gif)
 
-# Save your project { .save }
+## Save your project { .save }
 
 ## Challenge: Create your own interactive badge! {.challenge}
 Create your own badge - you can use any images or animations you like!
