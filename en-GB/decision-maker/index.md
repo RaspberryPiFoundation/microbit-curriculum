@@ -4,6 +4,7 @@ description: Use your micro:bit to make all of your decisions for you!
 layout: project
 notes: "Decision Maker - notes.md"
 new: true
+project-type: sample
 ---
 
 # Introduction { .intro }
@@ -127,8 +128,12 @@ screenshot not created yet.
 
 ## Save your project { .save }
 
-## Challenge: Pass the bomb {.challenge}
-...
-
 ## Challenge: Shake your micro:bit {.challenge}
-...
+Can you code your micro:bit to make a decision when it is shaken instead of when a button is pressed?
+
+## Save your project { .save }
+
+## Challenge: Pass the bomb {.challenge}
+...To Do!
+
+## Save your project { .save }
