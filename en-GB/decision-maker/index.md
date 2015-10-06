@@ -4,7 +4,7 @@ description: Use your micro:bit to make all of your decisions for you!
 layout: project
 notes: "Decision Maker - notes.md"
 new: true
-project-type: sample
+project-type: beta
 ---
 
 # Introduction { .intro }
