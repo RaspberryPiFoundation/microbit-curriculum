@@ -8,7 +8,7 @@ In this project, children will learn how to use events to execute sequences of i
 #Resources
 For this project, the [Code Kingdoms](http://jumpto.cc/mb-new) microbit editor should be used.
 
-You can find a completed version of this project at <a href="http://">/xxxxx</a>, and the compiled .hex file can be downloaded by clicking the 'Download Project Materials' link for this project, which contains:
+You can find a completed version of this project at [microbit.co.uk/butcyl](https://www.microbit.co.uk/butcyl), and the compiled .hex file can be downloaded by clicking the 'Download Project Materials' link for this project, which contains:
 
 + InteractiveBadge.hex
 

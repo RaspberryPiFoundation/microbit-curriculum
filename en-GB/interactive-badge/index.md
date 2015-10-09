@@ -19,7 +19,7 @@ Let's start by showing an image on your micro:bit when it's powered on.
 
 ## Activity Checklist { .check }
 
-+ Go to [jumpto.cc/mb-new](http://jumpto.cc/mb-new) to start a new project in the Code Kingdoms editor. Call your new project 'Interactive badge'.
++ Go to <a href="http://jumpto.cc/mb-new" target="_blank">jumpto.cc/mb-new</a> to start a new project in the Code Kingdoms editor. Call your new project 'Interactive badge'.
 
 ![screenshot](images/badge-name.png)
 
@@ -128,7 +128,7 @@ To find the `wait` block, click the 'Language' icon on the left of the editor.
 
 ![screenshot](images/badge-wait.png)
 
-+ To choose how namy milliseconds to wait, click the down-arrow and enter a number. 1000 milliseconds is 1 second, so 250 milliseconds is a quarter of a second.
++ To choose how many milliseconds to wait, click the down-arrow and enter a number. 1000 milliseconds is 1 second, so 250 milliseconds is a quarter of a second.
 
 ![screenshot](images/badge-wait2.png)
 
