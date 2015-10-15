@@ -17,5 +17,5 @@ You can find a completed version of this project at [microbit.co.uk/dkqhbx](http
 + The `random` block.
 
 #Challenges
-+ "Fixing the scrolling text!" - Changing the number in a `say` block to fix a problem with the speed of scrolling text.
++ "Fixing the scrolling text!" - Changing the number in a `say` block to fix a problem with the speed of scrolling text;
 + "Multiple answers" - Consolidating use if `if` blocks, by adding 'No' and 'Ask again' answers.
