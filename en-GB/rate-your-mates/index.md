@@ -106,7 +106,7 @@ Let's display short animations in your program.
 
 ![screenshot](images/rate-for.png)
 
-+ Finally, you just need to tell the `for` loop to start at 1, and count up to 5. This will make the code repeat 5 times.
++ Finally, you just need to tell the `for` loop to start at `1`, and count up to `5`. This will make the code repeat 5 times.
 
 ![screenshot](images/rate-1-5.png)
 
