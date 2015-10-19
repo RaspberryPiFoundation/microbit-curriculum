@@ -86,7 +86,7 @@ As you can see, the `=` in the block means that you can set the answer to displa
 
 ![screenshot](images/decision-random.png)
 
-+ Drag the random `number` block on top of the word `update` 
++ Drag the random `number` block on top of the word `update`.
 
 ![screenshot](images/decision-assign-random.png)
 
