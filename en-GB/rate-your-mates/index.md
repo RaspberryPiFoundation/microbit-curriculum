@@ -4,7 +4,6 @@ description: Use your micro:bit to find our your compatibility with friends!
 layout: project
 notes: "Rate Your Mates - notes.md"
 new: true
-project-type: beta
 ---
 
 # Introduction { .intro }

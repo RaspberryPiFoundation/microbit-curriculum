@@ -4,7 +4,6 @@ description: Learn how to make a badge that shows your mood.
 layout: project
 notes: "Interactive Badge - notes.md"
 new: true
-project-type: beta
 ---
 
 # Introduction { .intro }
