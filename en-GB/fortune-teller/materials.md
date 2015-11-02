@@ -1,6 +1,13 @@
 ---
 title: Fortune Teller - Materials
-layout: materials
-volunteer-resources: FortuneTeller.hex
+layout: project-materials
 project-resources: 
+volunteer-resources:
+  - url: https://www.microbit.co.uk/dkqhbx
+    type: link
+    text: microbit.co.uk/dkqhbx
+    description: online completed project
+  - url: FortuneTeller.hex
+    type: file
+    description: .hex project file to transfer onto your micro:bit
 ---

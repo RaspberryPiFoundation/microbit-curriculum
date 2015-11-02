@@ -1,6 +1,13 @@
 ---
-title: Boat Race Materials
-layout: materials
-volunteer-resources: InteractiveBadge.hex
-project-resources: 
+title: Interactive Badge - Materials
+layout: project-materials
+project-resources:
+volunteer-resources:
+  - url: https://www.microbit.co.uk/butcyl
+    type: link
+    text: microbit.co.uk/butcyl
+    description: online completed project
+  - url: InteractiveBadge.hex
+    type: file
+    description: .hex project file to transfer onto your micro:bit 
 ---

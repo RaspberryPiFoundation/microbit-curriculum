@@ -1,6 +1,8 @@
 ---
-title: Interactive Badge - Materials
-layout: materials
-volunteer-resources: DecisionMaker.hex
+title: Decision Maker - Materials
+layout: project-materials
+volunteer-resources:
+  - url: DecisionMaker.hex
+    type: file
 project-resources: 
 ---
