@@ -4,6 +4,7 @@ description: Use your micro:bit to read the future!
 layout: project
 notes: "Fortune Teller - notes.md"
 new: true
+project-type: sample
 ---
 
 # Introduction { .intro }
