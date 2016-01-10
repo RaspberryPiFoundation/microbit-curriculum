@@ -21,9 +21,9 @@ Let's start by displaying an image after a random amount of time.
 
 + Before displaying an image, the game should wait for a random amount of time.
 
-	Click the 'Control' tab, and drag a `wait` block into the `onstart()` event.
+Click the 'Control' tab, and drag a `wait` block into the `onstart()` event.
 
-	![screenshot](images/reaction-wait.png)
+![screenshot](images/reaction-wait.png)
 
 + Click 'Library' and then 'Random', and drag the `number` block inside your `wait` block.
 
