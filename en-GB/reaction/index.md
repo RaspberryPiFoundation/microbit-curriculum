@@ -9,7 +9,7 @@ project-type: beta
 
 # Introduction { .intro }
 
-You are going to create a reaction game, to see which of your friends has the fastest reactions. The game will work by showing an image after a random amount of time - whoever presses their button first is the winner.
+You are going to create a game to see which of your friends has the fastest reactions. The game will work by showing an image after a random amount of time - whoever presses their button first once the image appears is the winner.
 
 # Step 1: Wait for it! { .activity }
 
@@ -37,7 +37,7 @@ Click the 'Control' tab, and drag a `wait` block into the `onstart()` event.
 
 ![screenshot](images/reaction-image.png)
 
-+ Test your project. You should see your image appear after a random delay.
++ Click 'run' to test your project. You should see your image appear after a random delay.
 
 ## Challenge: Choose your own image { .challenge }
 Can you change the image that's displayed?
