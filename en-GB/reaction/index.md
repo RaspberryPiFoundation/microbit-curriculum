@@ -5,6 +5,7 @@ layout: project
 notes: "Reaction - notes.md"
 new: true
 project-type: beta
+project-type: sample
 ---
 
 # Introduction { .intro }
