@@ -10,7 +10,7 @@ project-type: sample
 
 # Introduction { .intro }
 
-You are going to create a game to see which of your friends has the fastest reactions. The game will work by showing an image after a random amount of time - whoever presses their button first once the image appears is the winner.
+You are going to create a 2-player game to see who has the fastest reactions. The game will work by showing an image after a random amount of time - whoever presses their button first is the winner.
 
 # Step 1: Wait for it! { .activity }
 
@@ -76,21 +76,35 @@ Let's add code to wait until a button is pressed.
 
 ## Activity Checklist { .check }
 
-+ After displaying an image, you'll need to wait until someone presses their button. To do this, add a `while` loop from the 'Control' section.
++ After displaying an image, you'll need to wait until someone presses their button.
 
-The `while` loop should be added in just after the `draw` block.
+Another way of saying this is that you'll need to wait as long as button button A __and__ button B have __not__ been pressed.
+
+To do this, add a `while` loop from the 'Control' section. The `while` loop should be added in just after the `draw` block.
 
 ![screenshot](images/reaction-while2.png)
 
-+ Click the `condition` inside your `while` loop and choose `left || right`. (`||` means '__or__').
++ Click the arrow inside your `while` loop and choose `left && right`. (`&&` means '__and__').
 
-![screenshot](images/reaction-while2-or.png)
+![screenshot](images/reaction-while2-and.png)
 
-+ Click on the main code section, and drag `buttonAPressed` and `buttonBPressed` blocks into the `left` and `right` parts of your `while` loop.
++ Click the arrow inside the `left` part of your `while` loop and `! value` (`!` means __not__).
 
-![screenshot](images/reaction-while2-buttons.png)
+![screenshot](images/reaction-while2-notleft.png)
 
-+ Test your project. As there is no code inside your `while` loop, your game should now display an image and then do nothing until either button A __or__ B are pressed.
++ Click on the main code section, and drag a `buttonAPressed` block into on top of the `value` part of your `while` loop.
+
+![screenshot](images/reaction-while2-buttonA.png)
+
++ Repeat the 2 steps above to add `! button B` into the `right` side of your while loop.
+
+![screenshot](images/reaction-while2-buttonB.png)
+
++ You can then add a very short (20ms) delay, so that your `while` loop waits as long as a button hasn't been pressed.
+
+![screenshot](images/reaction-while2-delay.png)
+
++ Test your project. Your game should now display an image and then wait as long as buttons A __and__ B have __not__ been pressed.
 
 # Step 4: Who is the fastest? { .activity }
 
@@ -98,7 +112,7 @@ Let's find out who pressed their button first.
 
 ## Activity Checklist { .check }
 
-+ If button A was pressed, we want to point to player A. To do this, add an `if` block after your `while` loop, and replace `condition` with `buttonAPressed`.
++ If button A was pressed, we want to point to player A. To do this, add an `if` block after your `while` loop, and replace `test` with `buttonAPressed`.
 
 ![screenshot](images/reaction-if-a.png)
 

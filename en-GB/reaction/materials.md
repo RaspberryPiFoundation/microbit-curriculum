@@ -3,13 +3,13 @@ title: Reaction - Materials
 layout: project-materials
 project-resources: 
 volunteer-resources:
-  - url: https://www.microbit.co.uk/vivzaa
+  - url: https://www.microbit.co.uk/betchf
     type: link
-    text: microbit.co.uk/vivzaa
+    text: microbit.co.uk/betchf
     description: online completed project
-  - url: https://www.microbit.co.uk/bvhagj
+  - url: https://www.microbit.co.uk/bwfgzh
     type: link
-    text: microbit.co.uk/bvhagj
+    text: microbit.co.uk/bwfgzh
     description: online completed project, including 'Keep score' challenge
   - url: Reaction.hex
     type: file
