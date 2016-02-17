@@ -106,7 +106,7 @@ You can also test out your new code on your micro:bit.
 ## Save your project { .save }
 
 ## Challenge: Displaying a sad face {.challenge}
-Can you make your micro:bit display a sad face then the 'B' button is pressed? You'll need to create a new event to do this.
+Can you make your micro:bit display a sad face when the 'B' button is pressed? You'll need to create a new event to do this.
 
 ![screenshot](images/badge-buttonB-emulator.png)
 
