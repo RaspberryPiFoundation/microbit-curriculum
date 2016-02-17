@@ -57,7 +57,7 @@ This will create and download a `.hex` file that will run on your micro:bit.
 
 ![screenshot](images/badge-drag.png)
 
-+ A light on the back of your micro:bit will flash while the file is being copied. Once this has stopped, click the blue reset button on the back of your micro:bit.
++ A light on the back of your micro:bit will flash while the file is being copied. Once this has stopped, click the reset button on the back of your micro:bit.
 
 ![screenshot](images/badge-reset.jpg)
 
