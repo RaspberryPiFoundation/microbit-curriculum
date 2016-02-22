@@ -41,7 +41,9 @@ This is how your code should look:
 
 + The text in your `say` block scrolls quite slowly across the screen. To speed it up, you'll need to use __another version__ of the `say` block.
 
-Delete your `say` block, so that your `onStart` event is empty.
+	Delete your `say` block, so that your `onStart` event is empty.
+
+	![screenshot](images/decision-say-delete.png)
 
 + Click the down arrow next to the `say` block and you'll see another a second block appear. Drag this block into the `onStart` event.
 
@@ -60,7 +62,7 @@ If you test your code again, you'll see that this time the text scrolls too quic
 
 # Step 2: Making a decision { .activity }
 
-Let's get your micro:bit to make a decision by randomly choosiong a number (`0` for 'No' and `1` for Yes).
+Let's get your micro:bit to make a decision by randomly choosing a number (`0` for 'No' and `1` for Yes).
 
 ## Activity Checklist { .check }
 
