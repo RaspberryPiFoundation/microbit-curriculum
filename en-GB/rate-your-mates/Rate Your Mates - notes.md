@@ -14,7 +14,7 @@ You can find a completed version of this project at [microbit.co.uk/tewqjx](http
 
 #Learning Objectives
 + `>` and `<` relational operators;
-+ `for` loop.
++ Repetition (`for` loop).
 
 #Challenges
 + "Low rating" - Use of `if` statement and `<` relational operator to show a cross or a sad face if the rating is under 25.
