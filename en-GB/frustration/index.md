@@ -133,15 +133,13 @@ Now that you've coded your game, let's put it all together!
 
 ![screenshot](images/frustration-wand-twist.jpg)
 
-+ To make the course, take a piece of wire about 30cm long and bend the middle part of the wire into shape.
++ To make the course, take a piece of wire about 30cm long and bend the middle part of the wire into shape. You should bend up one end of the course.
 
 ![screenshot](images/frustration-course-bend.jpg)
 
 + If you have some electrical tape, wrap some around the two ends of the wire, leaving some exposed metal at both ends.
 
 ![screenshot](images/frustration-course-tape.jpg)
-
-+ Bend up one end of the course.
 
 ![screenshot](images/frustration-course-bend-end.jpg)
 
