@@ -141,8 +141,6 @@ Now that you've coded your game, let's put it all together!
 
 ![screenshot](images/frustration-course-tape.jpg)
 
-![screenshot](images/frustration-course-bend-end.jpg)
-
 + Slide your wand through your course, and push the ends of your wire into some putty to stand it up.
 
 ![screenshot](images/frustration-course-putty.jpg)
