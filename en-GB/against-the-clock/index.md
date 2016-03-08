@@ -17,6 +17,7 @@ Let's set your timer to 0 when buttons A and B are pressed together.
 
 ## Activity Checklist { .check }
 
++ Go to <a href="http://jumpto.cc/mb-new" target="_blank">jumpto.cc/mb-new</a> to start a new project in the Code Kingdoms editor. Call your new project 'Timer'.
 
 + Drag the `onStart` event (including the comment) into the bin, as you don't need it.
 
