@@ -13,7 +13,7 @@ You are going to code your micro:bit to tell you how compatible you are with you
 
 # Step 1: Pressing buttons together { .activity }
 
-Let's start your program when the A and B buttons are presed together.
+Let's start your program when the A and B buttons are pressed together.
 
 ## Activity Checklist { .check }
 
