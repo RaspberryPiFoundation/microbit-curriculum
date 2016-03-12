@@ -146,7 +146,7 @@ This is how your code should look:
 
 + You can then drag these blocks into your `onPressB` event. This is how your code should look:
 
-![screenshot](images/badge-onPressB.png)
+![screenshot](images/badge-onpressB.png)
 
 + Test your code, and you should see your animated happy and sad faces!
 
