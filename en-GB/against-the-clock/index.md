@@ -53,7 +53,7 @@ Let's set your timer to 0 when buttons A and B are pressed together.
 
 # Step 2: Starting and stopping your timer { .activity }
 
-Use button A to start your timer, and button B to stop it.
+Let's use button A to start your timer, and button B to stop it.
 
 ## Activity Checklist { .check }
 
