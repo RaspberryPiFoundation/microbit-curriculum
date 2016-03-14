@@ -11,7 +11,7 @@ project-type: sample
 
 You are going to make a game in which players have to guide a wand along a course without making contact. Making contact will add one to the player's score - the player with the lowest score wins!
 
-![screenshot](images/frustration-final.jpg)
+![screenshot](images/frustration-final.png)
 
 For this project you'll need some additional items:
 
@@ -20,11 +20,11 @@ For this project you'll need some additional items:
 + Electrical tape (optional);
 + Crocodile clip leads (optional).
 
-![screenshot](images/frustration-items.jpg)
+![screenshot](images/frustration-items.png)
 
 # Step 1: Storing fails { .activity }
 
-Let's start by creating a place to store fails.
+Let's start by creating a place to store the number of fails.
 
 ## Activity Checklist { .check }
 
@@ -73,9 +73,11 @@ Let's start by creating a place to store fails.
 ## Challenge: Display an image { .challenge }
 Can you display an image for 1 second (1000ms) before the number of `fails` are displayed?
 
-You'll need to use the `draw` and `wait` blocks do to this.
-
 ![screenshot](images/frustration-start-img.png)
+
+You'll need to use the following blocks do to this:
+
+![screenshot](images/frustration-blocks.png)
 
 # Step 2: Keeping track of fails { .activity }
 
@@ -127,23 +129,23 @@ Now that you've coded your game, let's put it all together!
 
 + First, let's make your wand. Take a piece of wire about 20cm long and bend it in half, making a loop at the top.
 
-![screenshot](images/frustration-wand-bend.jpg)
+![screenshot](images/frustration-wand-bend.png)
 
 + You can then twist the two pieces of wire together.
 
-![screenshot](images/frustration-wand-twist.jpg)
+![screenshot](images/frustration-wand-twist.png)
 
-+ To make the course, take a piece of wire about 30cm long and bend the middle part of the wire into shape. You should bend up one end of the course.
++ To make the course, take another piece of wire about 30cm long and bend the middle part of the wire into shape. You should bend up one end of the course.
 
-![screenshot](images/frustration-course-bend.jpg)
+![screenshot](images/frustration-course-bend.png)
 
 + If you have some electrical tape, wrap some around the two ends of the wire, leaving some exposed metal at both ends.
 
-![screenshot](images/frustration-course-tape.jpg)
+![screenshot](images/frustration-course-tape.png)
 
 + Slide your wand through your course, and push the ends of your wire into some putty to stand it up.
 
-![screenshot](images/frustration-course-putty.jpg)
+![screenshot](images/frustration-course-putty.png)
 
 + You can now connect your game to your micro:bit using a crocodile clip lead or some wire. Firstly, connect the ground pin (GND) to one end of your course.
 
@@ -151,11 +153,11 @@ Now that you've coded your game, let's put it all together!
 
 + You can then connect Pin 0 to your wand.
 
-![screenshot](images/frustration-pin0-connect.jpg)
+![screenshot](images/frustration-pin0-connect.png)
 
 + Test your game. Press button A and your score should be set to 0. Each time your wand touches the course, the circuit is completed and your micro:bit should add 1 to your number of fails.
 
-![screenshot](images/frustration-final-jpg)
+![screenshot](images/frustration-final.png)
 
 ## Challenge: Cheat mode! { .challenge }
 Can you add a cheat to your game, so that pressing button B reduces your score by 1?
