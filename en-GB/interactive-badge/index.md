@@ -67,15 +67,23 @@ This will create and download a `.hex` file that will run on your micro:bit.
 
 ## Save your project { .save }
 
-To save your project, click 'my scripts' at the bottom of the editor.
+You don't need an account to save your stuff! To save your project, click 'my scripts' at the bottom of the editor.
 
 ![screenshot](images/badge-menu.png)
 
-You should then see a list of all your projects. To make sure your projects are saved, you'll need to sign in. The link to do this is in the top-right of the browser.
+Select your 'Interactive Badge' project and click the 'save' button.
 
-![screenshot](images/badge-signin.png)
+![screenshot](images/save.png)
 
-To go back to your project, just click on your interactive badge project and click 'edit'.
+This will a download your script in a .jsz file, which you can save anywhere you like.
+
+![screenshot](images/jsz.png)
+
+To load your project on another computer, click 'Import Code' and select your .jsz file.
+
+![screenshot](images/import.png)
+
+You can then get back to your code by clicking 'edit'.
 
 ![screenshot](images/badge-edit.png)
 
