@@ -16,7 +16,7 @@ You are going to make a game in which players have to guide a wand along a cours
 For this project you'll need some additional items:
 
 + Metal wire (approx. 50cm);
-+ Putty;
++ Modelling clay (Plasticine or similar, not air-drying, needs to be non-conductive);
 + Electrical tape (optional);
 + Crocodile clip leads (optional).
 
@@ -143,7 +143,7 @@ Now that you've coded your game, let's put it all together!
 
 ![screenshot](images/frustration-course-tape.png)
 
-+ Slide your wand through your course, and push the ends of your wire into some putty to stand it up.
++ Slide your wand through your course, and push the ends of your wire into some clay to stand it up.
 
 ![screenshot](images/frustration-course-putty.png)
 
