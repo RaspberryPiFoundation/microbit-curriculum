@@ -1,6 +1,6 @@
 # Code Club micro:bit Curriculum
 
-This repository contains all the material for the [Code Club micro:bit projects][https://codeclubprojects.org/en-GB/microbit/].
+This repository contains all the material for the [Code Club micro:bit projects](https://codeclubprojects.org/en-GB/microbit/).
 It consists of lesson notes and plans in [Markdown][markdown] format along with
 micro:bit project files.
 
