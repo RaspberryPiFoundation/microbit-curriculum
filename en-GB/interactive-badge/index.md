@@ -39,11 +39,11 @@ Let's start by showing an image on your micro:bit when it's powered on.
 
 ![screenshot](images/badge-menu.png)
 
-+ You should then see your image on the micro:bit, to the right of the editor.
++ You should then see your image on the micro:bit.
 
 ![screenshot](images/badge-emulator.png)
 
-+ You can also test your code on the micro:bit itself! To do this, click 'compile' on the menu at the bottom of the screen
++ You can also test your code on the micro:bit itself! To do this, click 'compile' on the menu at the bottom of the screen.
 
 ![screenshot](images/badge-menu.png)
 
