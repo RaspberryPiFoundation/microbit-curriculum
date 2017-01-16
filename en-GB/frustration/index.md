@@ -85,7 +85,7 @@ Let's add code to keep track of fails.
 
 ## Activity Checklist { .check }
 
-+ You're going to add 1 to your `fails` variable every time a connection is made on Pin0. To do this, Click 'Add Event', and choose `onPinPress0`.
++ You're going to add 1 to your `fails` variable every time a connection is made on Pin0. To do this, Click 'Add Event', and choose `onPressPin0`.
 
 ![screenshot](images/frustration-pressPin0.png)
 
@@ -105,7 +105,7 @@ Let's add code to keep track of fails.
 
 ![screenshot](images/frustration-pin0-left.png)
 
-+ Click the `right` arrow and type 1. This means that your `fail` variable will add 1 to it's old value. Here's how your block should look.
++ Click the `right` arrow and type 1. This means that your `fail` variable will add 1 to its old value. Here's how your block should look.
 
 ![screenshot](images/frustration-pin0-right.png)
 
@@ -151,7 +151,7 @@ Now that you've coded your game, let's put it all together!
 
 ![screenshot](images/frustration-gnd-connect.png)
 
-+ You can then connect Pin 0 to your wand.
++ You can then connect Pin0 to your wand.
 
 ![screenshot](images/frustration-pin0-connect.png)
 
@@ -165,6 +165,6 @@ Can you add a cheat to your game, so that pressing button B reduces your score b
 ## Challenge: Personalise your game { .challenge }
 Get some friends to try out your game. If your game is too easy, you can make it harder by:
 
-+ Create a longer course;
-+ Add more bends to your course;
-+ Make a wand with a smaller gap.
++ Creating a longer course;
++ Adding more bends to your course;
++ Making a wand with a smaller gap.
