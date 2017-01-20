@@ -27,15 +27,15 @@ Let's start by showing an image on your micro:bit when it's powered on.
 
 ![screenshot](images/badge-draw.png)
 
-+ If you make a mistake, you can drag the code block into the bin.
++ If you make a mistake, you can drag the code block and a bin will appear, drag the code block over the bin and the bin will open, let go of the block to delete it.
 
 ![screenshot](images/badge-bin.png)
 
-+ To create an image to display, click the down-arrow next to the word `pattern`. You can choose an image to display, or even draw your own.
++ To create an image to display, click on the word `Pattern`. You can choose an image to display, or even draw your own.
 
 ![screenshot](images/badge-pattern.png)
 
-+ To test your code, click 'run' in the menu at the bottom of the screen.
++ To test your code, click 'Run' in the menu on the left the screen.
 
 ![screenshot](images/badge-menu.png)
 
@@ -43,41 +43,48 @@ Let's start by showing an image on your micro:bit when it's powered on.
 
 ![screenshot](images/badge-emulator.png)
 
-+ You can also test your code on the micro:bit itself! To do this, click 'compile' on the menu at the bottom of the screen.
++ You can also test your code on the micro:bit itself! To do this, click 'Compile' on the menu at the left of the screen.
 
-![screenshot](images/badge-menu.png)
+![screenshot](images/badge-compile.png)
 
 This will create and download a `.hex` file that will run on your micro:bit.
+
 
 + Use the USB cable to plug your micro:bit into your computer. You should then see your micro:bit appear in your computer's file manager as a USB drive. 
 
 ![screenshot](images/badge-drive.png)
 
-+ Drag the `.hex` file onto the micro:bit drive that appears.
++ If you are using the micro:bit uploader then the `.hex` file will be automatically copied to the micro:bit. Check with your volunteer if you're not sure. 
+
+Otherwise you will need to copy the `.hex` file to the micro:bit.
+
+If you are using __Internet Explorer__ you can choose `Save as` from the menu that appears at the bottom of your browser and then select the micro:bit drive:
+
+![screenshot](images/badge-save-explorer.png)
+
+If you are using __Google Chrome__ you can drag the `.hex` file onto the micro:bit drive in the file manager.
 
 ![screenshot](images/badge-drag.png)
 
-+ A light on the back of your micro:bit will flash while the file is being copied. Once this has stopped, click the reset button on the back of your micro:bit.
++ A light on the back of your micro:bit will flash while the file is being copied. Once this has stopped your program will run. You can click the reset button on the back of your micro:bit to restart the program.
 
 ![screenshot](images/badge-reset.jpg)
 
-+ You should now see your image on the micro:bit. If you prefer, you can remove the USB cable from your micro:bit, and attach the battery.
++ You should now see your image on the micro:bit. If you prefer, you can remove the USB cable from your micro:bit, and attach the battery. The program will be saved on the micro:bit.
 
 ![screenshot](images/badge-battery.jpg)
 
 ## Save your project { .save }
 
-You don't need an account to save your stuff! To save your project, click 'my scripts' at the bottom of the editor.
+You don't need an account to save your stuff! To save your project, click 'My Scripts' near the bottom of the menu on the left.
 
-![screenshot](images/badge-menu.png)
+![screenshot](images/badge-scripts.png)
 
 Select your 'Interactive Badge' project and click the 'save' button.
 
 ![screenshot](images/save.png)
 
 This will a download your script in a .jsz file, which you can save anywhere you like.
-
-![screenshot](images/jsz.png)
 
 To load your project on another computer, click 'Import Code' and select your .jsz file.
 
@@ -98,6 +105,8 @@ Let's show a happy face on your micro:bit when the 'A' button is pressed.
 Click 'Add Event' and then choose the `onPressA` event.
 
 ![screenshot](images/badge-event.png)
+
+![screenshot](images/badge-event2.png)
 
 Any code added inside this event will run when the 'A' button on your micro:bit is pressed.
 
