@@ -45,7 +45,7 @@ This is how your code should look:
 
 	![screenshot](images/decision-say-delete.png)
 
-+ Click the down arrow next to the `say` block and you'll see another a second block appear. Drag this block into the `onStart` event.
++ Click the down arrow next to the `say` block and you'll see a second block appear. Drag this block into the `onStart` event.
 
 ![screenshot](images/decision-say-interval.png)
 
@@ -56,13 +56,13 @@ This is how your code should look:
 ## Save your project { .save }
 
 ## Challenge: Fixing the scrolling text! {.challenge}
-If you test your code again, you'll see that this time the text scrolls too quickly. Can you change the number in your `say` block so that the text scrolls at a good speed. 
+If you test your code again, you'll see that this time the text scrolls too quickly. Can you change the number in your `say` block so that the text scrolls at a good speed?
 
 ## Save your project { .save }
 
 # Step 2: Making a decision { .activity }
 
-Let's get your micro:bit to make a decision by randomly choosing a number (`0` for 'No' and `1` for Yes).
+Let's get your micro:bit to make a decision by randomly choosing a number (`0` for 'No' and `1` for 'Yes').
 
 ## Activity Checklist { .check }
 
