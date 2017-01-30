@@ -18,5 +18,5 @@ You can find a completed version of this project at [microbit.co.uk/lshyvy](http
 + `!` (not) Boolean operator.
 
 #Challenges
-+ "Challenge your friends!" - use the timer to set challenges others to complete.
++ "Challenge your friends!" - use the timer to set challenges for others to complete.
 + "Counting Down" - using a `while` loop to create a timer that counts down until it reaches 0.
