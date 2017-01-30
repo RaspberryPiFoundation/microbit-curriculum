@@ -61,7 +61,7 @@ Let's use button A to start your timer, and button B to stop it.
 
 ![screenshot](images/clock-a.png)
 
-+ The timer should count up as long as button B __has not been pressed__. To do this, first drag a `while` block unto your new `onPressA` event.
++ The timer should count up as long as button B __has not been pressed__. To do this, first drag a `while` block into your new `onPressA` event.
 
 ![screenshot](images/clock-while.png)
 
@@ -97,14 +97,14 @@ Let's use button A to start your timer, and button B to stop it.
 
 + Click 'run' to test your code.
 
-	+ Press buttons A and B together to est your timer to 0
+	+ Press buttons A and B together to set your timer to 0
 	+ Press button A to start your timer
-	+ Press (and hold) button B to stop your timer.
+	+ Press (and hold) button B to stop your timer
 
 ![screenshot](images/clock-test-start.png)
 
 ## Challenge your friends! { .challenge }
-Use the timer to challenge yout friends. For example, you could see how long it takes them to say the alphabet backwards, or name 10 capital cities.
+Use the timer to challenge your friends. For example, you could see how long it takes them to say the alphabet backwards, or name 10 capital cities.
 
 ## Challenge: Counting Down { .challenge }
 Can you create a __new__ timer, that counts down to 0? Here's how your new timer should work:
