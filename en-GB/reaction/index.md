@@ -49,11 +49,11 @@ So far your players can only play once. Let's fix that!
 
 ## Activity Checklist { .check }
 
-+ Click the 'Control' tab, and drag a `while` loop at the start of your code.
++ Click the 'Control' tab, and drag a `while` loop to the start of your code.
 
 ![screenshot](images/reaction-while.png)
 
-+ Click `condition` inside your `while` loop, and choose `true` so that your game repeats forever.
++ Click `test` inside your `while` loop, and choose `true` so that your game repeats forever.
 
 ![screenshot](images/reaction-while-true.png)
 
@@ -78,13 +78,13 @@ Let's add code to wait until a button is pressed.
 
 + After displaying an image, you'll need to wait until someone presses their button.
 
-Another way of saying this is that you'll need to wait as long as button button A __and__ button B have __not__ been pressed.
+Another way of saying this is that you'll need to wait as long as button A __and__ button B have __not__ been pressed.
 
 To do this, add a `while` loop from the 'Control' section. The `while` loop should be added in just after the `draw` block.
 
 ![screenshot](images/reaction-while2.png)
 
-+ Click the arrow inside your `while` loop and choose `left && right`. (`&&` means '__and__').
++ Click the arrow inside your `while` loop and choose `left && right` (`&&` means '__and__').
 
 ![screenshot](images/reaction-while2-and.png)
 
@@ -92,7 +92,7 @@ To do this, add a `while` loop from the 'Control' section. The `while` loop shou
 
 ![screenshot](images/reaction-while2-notleft.png)
 
-+ Click on the main code section, and drag a `buttonAPressed` block into on top of the `value` part of your `while` loop.
++ Click on the main code section, and drag a `buttonAPressed` block on top of the `value` part of your `while` loop.
 
 ![screenshot](images/reaction-while2-buttonA.png)
 
@@ -125,6 +125,6 @@ Let's find out who pressed their button first.
 ![screenshot](images/reaction-if-b.png)
 
 ## Challenge: Keep score { .challenge }
-Can you use 2 variables called `playerA` and `playerB` to keep track of both player's score?
+Can you use two variables called `playerA` and `playerB` to keep track of each player's score?
 
 You'll need to set both scores to 0 at the start of the game, and add 1 to whichever player wins each round.

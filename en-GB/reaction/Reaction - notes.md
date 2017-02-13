@@ -26,4 +26,4 @@ There is also a version of the project with the "Keep score" challenge completed
 #Challenges
 + "Choose your own image" - changing the image displayed on the micro:bit.
 + "Choose your own delay" - changing the parameters to the `random` function.
-+ "Keep score" - Use variables to keep track of player scores.
++ "Keep score" - use variables to keep track of player scores.

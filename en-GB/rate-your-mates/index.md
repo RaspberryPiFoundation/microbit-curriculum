@@ -65,7 +65,7 @@ Show a friendship rating on the screen.
 
 # Step 3: Best mates { .activity }
 
-Let's display a heart when 2 friends have a high rating.
+Let's display a heart when two friends have a high rating.
 
 ## Activity Checklist { .check }
 

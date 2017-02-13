@@ -3,7 +3,7 @@ title: Rate Your Mates — Notes for Club Leaders
 ---
 
 #Introduction:
-In this project, children will learn how to make use of variables and random numbers by making a compatibility program. 2 users will each press a button on the micro:bit, which will then tell them their compatibility percentage.
+In this project, children will learn how to make use of variables and random numbers by making a compatibility program. Two users will each press a button on the micro:bit, which will then tell them their compatibility percentage.
 
 #Resources
 For this project, the [Code Kingdoms](http://jumpto.cc/mb-new) microbit editor should be used.
