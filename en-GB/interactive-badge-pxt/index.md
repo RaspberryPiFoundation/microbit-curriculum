@@ -54,9 +54,9 @@ If you are using __Internet Explorer__ you can choose `Save as` from the menu th
 
 ![screenshot](images/badge-save-explorer.png)
 
-If you are using __Google Chrome__ you can drag the `.hex` file onto the micro:bit drive in the file manager.
+If you are using __Google Chrome__ you can click on the arrow after the downloaded file and choose 'Show in folder' and then drag the highlighted file to the micro:bit drive:
 
-![screenshot](images/badge-drag.png)
+![screenshot](images/badge-save-chrome.png)
 
 + A light on the back of your micro:bit will flash while the file is being copied. Once this has stopped your program will run. You can click the reset button on the back of your micro:bit to restart the program.
 
