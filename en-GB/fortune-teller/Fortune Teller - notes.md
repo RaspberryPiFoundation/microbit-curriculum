@@ -16,6 +16,10 @@ You can find a completed version of this project at [microbit.co.uk/dkqhbx](http
 + Selection (`if` and `if...else` blocks);
 + The `random` block.
 
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+
++ [Use basic programming constructs to create simple programs.](https://www.raspberrypi.org/curriculum/programming/creator)
+
 #Challenges
 + "Fixing the scrolling text!" - Changing the number in a `say` block to fix a problem with the speed of scrolling text;
 + "Multiple answers" - Consolidating use of `if` blocks, by adding 'No' and 'Ask again' answers.

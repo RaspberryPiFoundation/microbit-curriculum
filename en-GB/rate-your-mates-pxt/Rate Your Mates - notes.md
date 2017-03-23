@@ -16,6 +16,10 @@ You can find a completed version of this project at [microbit.co.uk/tewqjx](http
 + `>` and `<` relational operators;
 + Repetition (`for` loop).
 
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+
++ [Use basic programming constructs to create simple programs.](https://www.raspberrypi.org/curriculum/programming/creator)
+
 #Challenges
 + "Low rating" - Use of `if` statement and `<` relational operator to show a cross or a sad face if the rating is under 25.
 + "More animations" - Use of a `for` loop to create more animations.

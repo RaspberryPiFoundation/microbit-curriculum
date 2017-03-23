@@ -23,6 +23,10 @@ There is also a version of the project with the "Keep score" challenge completed
 	+ AND (`&&`);
 	+ NOT (`!`).
 
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+
++ [Use basic programming constructs to create simple programs.](https://www.raspberrypi.org/curriculum/programming/creator)
+
 #Challenges
 + "Choose your own image" - changing the image displayed on the micro:bit.
 + "Choose your own delay" - changing the parameters to the `random` function.

@@ -26,6 +26,12 @@ You can find a completed version of this project at [microbit.co.uk/jrvivm](http
 + Variables;
 + Input/output (I/O) pins.
 
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+
++ [Use basic programming constructs to create simple programs.](https://www.raspberrypi.org/curriculum/programming/creator)
+
++ [Use basic digital, analogue, and electromechanical components.](https://www.raspberrypi.org/curriculum/physical-computing/creator)
+
 #Challenges
 + "Display an image" - Display an image on the micro:bit before the number of `fails` is displayed.
 + "Cheat mode!" - Subtract 1 from the `fails` variable when button B is pressed.

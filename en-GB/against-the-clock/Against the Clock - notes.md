@@ -17,6 +17,10 @@ You can find a completed version of this project at [microbit.co.uk/lshyvy](http
 + Repetition (`while` loop);
 + `!` (not) Boolean operator.
 
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+
++ [Use basic programming constructs to create simple programs.](https://www.raspberrypi.org/curriculum/programming/creator)
+
 #Challenges
 + "Challenge your friends!" - use the timer to set challenges for others to complete.
 + "Counting Down" - using a `while` loop to create a timer that counts down until it reaches 0.

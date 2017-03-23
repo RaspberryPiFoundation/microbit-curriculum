@@ -16,6 +16,10 @@ You can find a completed version of this project at [microbit.co.uk/dkqhbx](http
 + Selection `if` blocks;
 + The `random` block.
 
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+
++ [Use basic programming constructs to create simple programs.](https://www.raspberrypi.org/curriculum/programming/creator)
+
 #Challenges
 + "Multiple answers" - Consolidating use of `if` blocks, by adding 'No' and 'Ask again' answers.
 + "Shake your micro:bit" - Shake the micro:bit instead of pressing a button.

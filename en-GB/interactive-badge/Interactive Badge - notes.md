@@ -16,6 +16,10 @@ You can find a completed version of this project at [microbit.co.uk/rautao](http
 + Events (`onStart`,`onPressA` and `onPressB`);
 + Sequencing instructions.
 
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+
++ [Use basic programming constructs to create simple programs.](https://www.raspberrypi.org/curriculum/programming/creator)
+
 #Challenges
 + "Displaying a sad face" - adding code to a new `onPressB` event;
 + "Create your own interactive badge!" - consolidation on skills learnt in this project.
