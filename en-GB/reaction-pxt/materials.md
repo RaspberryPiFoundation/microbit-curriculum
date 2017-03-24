@@ -3,13 +3,13 @@ title: Reaction - Materials
 layout: project-materials
 project-resources: 
 volunteer-resources:
-  - url: https://www.microbit.co.uk/betchf
+  - url: https://pxt.microbit.org/#pub:50800-81674-84873-32898
     type: link
-    text: microbit.co.uk/betchf
+    text: pxt.microbit.org/#pub:50800-81674-84873-32898
     description: online completed project
-  - url: https://www.microbit.co.uk/bwfgzh
+  - url: https://pxt.microbit.org/#pub:23812-11544-45113-45147
     type: link
-    text: microbit.co.uk/bwfgzh
+    text: pxt.microbit.org/#pub:23812-11544-45113-45147
     description: online completed project, including 'Keep score' challenge
   - url: microbit-Reaction.hex
     type: file

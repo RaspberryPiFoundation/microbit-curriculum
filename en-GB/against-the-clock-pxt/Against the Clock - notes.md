@@ -9,7 +9,7 @@ In this project, children will learn how to make a timer, which can be used to c
 
 For this project, the [PXT](http://jumpto.cc/pxt-new) microbit editor should be used.
 
-You can find a completed version of this project at [microbit.co.uk/lshyvy](https://www.microbit.co.uk/lshyvy), and the compiled .hex file can be downloaded by clicking the 'Download Project Materials' link for this project, which contains:
+You can find a completed version of this project at [pxt.microbit.org/#pub:55342-38825-28229-57221](https://pxt.microbit.org/#pub:55342-38825-28229-57221), and the compiled .hex file can be downloaded by clicking the 'Download Project Materials' link for this project, which contains:
 
 + microbit-Against-the-Clock.hex
 + microbit-Countdown.hex

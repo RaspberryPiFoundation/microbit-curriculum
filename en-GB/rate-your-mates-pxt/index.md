@@ -11,6 +11,11 @@ project-type: sample
 
 You are going to code your micro:bit to tell you how compatible you are with your friends.
 
+<div class="trinket" style="width:400px;margin: 0 auto;">
+<div style="position:relative;height:0;padding-bottom:81.97%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://pxt.microbit.org/---run?id=57756-45098-79806-84952" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-scripts allow-same-origin" frameborder="0"></iframe></div>
+<img src="images/rate-final.gif">
+</div>
+
 # Step 1: Pressing buttons together { .activity }
 
 Let's start your program when the A and B buttons are pressed together.

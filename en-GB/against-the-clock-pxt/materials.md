@@ -3,16 +3,16 @@ title: Against the Clock - Materials
 layout: project-materials
 project-resources:
 volunteer-resources:
-  - url: https://www.microbit.co.uk/lshyvy
+  - url: https://pxt.microbit.org/#pub:55342-38825-28229-57221
     type: link
-    text: microbit.co.uk/lshyvy
+    text: pxt.microbit.org/#pub:55342-38825-28229-57221
     description: online completed project
   - url: microbit-Against-the-Clock.hex
     type: file
     description: .hex project file to transfer onto your micro:bit
-  - url: https://www.microbit.co.uk/jvxajr
+  - url: https://pxt.microbit.org/#pub:69636-14914-13941-21768
     type: link
-    text: microbit.co.uk/jvxajr
+    text: pxt.microbit.org/#pub:69636-14914-13941-21768
     description: online completed "Countdown" challenge
   - url: microbit-Countdown.hex
     type: file

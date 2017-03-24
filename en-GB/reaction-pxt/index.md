@@ -12,6 +12,11 @@ project-type: sample
 
 You are going to create a 2-player game to see who has the fastest reactions. The game will work by showing an image after a random amount of time - whoever presses their button first is the winner.
 
+<div class="trinket" style="width:400px;margin: 0 auto;">
+<div style="position:relative;height:0;padding-bottom:81.97%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://pxt.microbit.org/---run?id=50800-81674-84873-32898" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-scripts allow-same-origin" frameborder="0"></iframe></div>
+<img src="images/reaction-final.gif">
+</div>
+
 # Step 1: Wait for it! { .activity }
 
 Let's start by displaying an image after a random amount of time.

@@ -8,7 +8,7 @@ In this project, children will learn how to make use of selection, by making a '
 #Resources
 For this project, the [Code Kingdoms](http://jumpto.cc/mb-new) microbit editor should be used.
 
-You can find a completed version of this project at [microbit.co.uk/dkqhbx](https://www.microbit.co.uk/dkqhbx), and the compiled .hex file can be downloaded by clicking the 'Download Project Materials' link for this project, which contains:
+You can find a completed version of this project at [pxt.microbit.org/#pub:18828-96734-17356-00995](https://pxt.microbit.org/#pub:18828-96734-17356-00995), and the compiled .hex file can be downloaded by clicking the 'Download Project Materials' link for this project, which contains:
 
 + FortuneTeller.hex
 

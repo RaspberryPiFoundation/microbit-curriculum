@@ -11,7 +11,10 @@ project-type: sample
 
 You are going to code your micro:bit to read the future! Simply ask the micro:bit a quesition, and press a button to find out the answer!
 
-![screenshot](images/fortune-final.png)
+<div class="trinket" style="width:400px;margin: 0 auto;">
+<div style="position:relative;height:0;padding-bottom:81.97%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://pxt.microbit.org/---run?id=18828-96734-17356-00995" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-scripts allow-same-origin" frameborder="0"></iframe></div>
+<img src="images/fortune-final.gif">
+</div>
 
 # Step 1: Scrolling text { .activity }
 
