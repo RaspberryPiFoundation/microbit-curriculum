@@ -3,17 +3,17 @@ title: Interactive Badge — Notes for Club Leaders
 ---
 
 #Introduction:
-In this project, children will learn how to use events to execute sequences of instructions, by making an interactive badge. Pressing the buttons on the micro:bit will change the image that's displayed.
+In this project, children will learn how to use input events to execute sequences of instructions, by making an interactive badge. Pressing the buttons on the micro:bit will change the image that's displayed.
 
 #Resources
-For this project, the [Code Kingdoms](http://jumpto.cc/mb-new) microbit editor should be used.
+For this project, the [PXT](http://jumpto.cc/pxt-new) microbit editor should be used.
 
-You can find a completed version of this project at [microbit.co.uk/rautao](https://www.microbit.co.uk/rautao), and the compiled .hex file can be downloaded by clicking the 'Download Project Materials' link for this project, which contains:
+You can find a completed version of this project at [pxt.microbit.org/#pub:90418-17495-16581-63753](https://pxt.microbit.org/#pub:90418-17495-16581-63753), and the compiled .hex file can be downloaded by clicking the 'Download Project Materials' link for this project, which contains:
 
-+ InteractiveBadge.hex
++ microbit-Interactive-Badge.hex
 
 #Learning Objectives
-+ Events (`onStart`,`onPressA` and `onPressB`);
++ Inputs (`on button pressed`);
 + Sequencing instructions.
 
 This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
@@ -21,5 +21,5 @@ This project covers elements from the following strands of the [Raspberry Pi Dig
 + [Use basic programming constructs to create simple programs.](https://www.raspberrypi.org/curriculum/programming/creator)
 
 #Challenges
-+ "Displaying a sad face" - adding code to a new `onPressB` event;
++ "Displaying a sad face" - adding code to a new `on button pressed` event;
 + "Create your own interactive badge!" - consolidation on skills learnt in this project.

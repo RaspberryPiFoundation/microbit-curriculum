@@ -11,7 +11,11 @@ project-type: sample
 
 You are going to code your micro:bit to read the future! Simply ask the micro:bit a quesition, and press a button to find out the answer!
 
-![screenshot](images/decision-final.png)
+__Instructions__: If you're reading this online, ask the micro:bit below a question and press __A__ to get your answer!
+
+<div class="trinket" style="width:400px;margin: 0 auto;">
+<div style="position:relative;height:0;padding-bottom:81.97%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://pxt.microbit.org/---run?id=18828-96734-17356-00995" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-scripts allow-same-origin" frameborder="0"></iframe></div>
+</div>
 
 # Step 1: Scrolling text { .activity }
 
@@ -19,44 +23,15 @@ Let's start by scrolling some text instructions on your micro:bit.
 
 ## Activity Checklist { .check }
 
-+ Go to <a href="http://jumpto.cc/mb-new" target="_blank">jumpto.cc/mb-new</a> to start a new project in the Code Kingdoms editor. Call your new project 'Fortune Teller'.
++ Go to <a href="http://jumpto.cc/pxt-new" target="_blank">jumpto.cc/pxt-new</a> to start a new project in the PXT editor. Call your new project 'Fortune Teller'.
 
-+ Drag the `say` block inside your `onStart` event.
+You can delete the `forever` block by dragging it over the palette, you don't need it for this project. 
 
-![screenshot](images/decision-say.png)
++ Drag a `show text` block inside yo	ur `start` start.
 
-+ To add some text, click the down-arrow, and choose 'String'.
+![screenshot](images/fortune-press-a.png)
 
-![screenshot](images/decision-string.png)
-
-+ Add your instructions into the text box.
-
-![screenshot](images/decision-instructions.png)
-
-This is how your code should look:
-
-![screenshot](images/decision-instructions-code.png)
-
-+ Test out your code. You can test it out in the editor or on the micro:bit itself.
-
-+ The text in your `say` block scrolls quite slowly across the screen. To speed it up, you'll need to use __another version__ of the `say` block.
-
-	Delete your `say` block, so that your `onStart` event is empty.
-
-	![screenshot](images/decision-say-delete.png)
-
-+ Click the down arrow next to the `say` block and you'll see a second block appear. Drag this block into the `onStart` event.
-
-![screenshot](images/decision-say-interval.png)
-
-+ This version of the `say` block lets you decide how long (in milliseconds) to wait between scrolling. Type `10` into the text box. 
-
-![screenshot](images/decision-say-interval2.png)
-
-## Save your project { .save }
-
-## Challenge: Fixing the scrolling text! {.challenge}
-If you test your code again, you'll see that this time the text scrolls too quickly. Can you change the number in your `say` block so that the text scrolls at a good speed?
++ Test out your code. You can test it out in the emulator or on the micro:bit itself.
 
 ## Save your project { .save }
 
@@ -66,66 +41,65 @@ Let's get your micro:bit to make a decision by randomly choosing a number (`0` f
 
 ## Activity Checklist { .check }
 
-+ Add a new `onPressA` event to your code.
++ Add a new `on button A pressed` event to your code.
 
-![screenshot](images/decision-onPressA.png)
+![screenshot](images/fortune-on-a-pressed.png)
 
-+ Let's create a new variable to store the answer. Click the 'Library' icon and then click 'Globals'.
++ Let's create a new variable to store the answer. Click the 'Variables' and then click 'Make a variable'.
 
-![screenshot](images/decision-globals.png)
+![screenshot](images/fortune-variables.png)
 
-+ Click the `+` to create a new variable called `answer`.
++ Name the new variable called `answer`.
 
-![screenshot](images/decision-answer.png)
+![screenshot](images/fortune-answer.png)
 
-+ Drag your new `answer` variable into your `onPressA` event.
++ Drag a `set` block fom Variables into your `on button A pressed` block and select the `answer` variable.
 
-![screenshot](images/decision-answer-assign.png)
+![screenshot](images/fortune-set.png)
 
-As you can see, the `=` in the block means that you can set the answer to display.
+As you can see, the `to` in the block means that you can set the answer to display.
 
-+ Click the 'Library' icon, and click 'Random'.
++ Click 'Math' and drag a `pick random` block after the `to`:
 
-![screenshot](images/decision-random.png)
-
-+ Drag the random `number` block on top of the word `update`.
-
-![screenshot](images/decision-assign-random.png)
+![screenshot](images/fortune-random.png)
 
 + Tell the random block to choose a number between 0 and 1. Here's how your code should look:
 
-![screenshot](images/decision-answer-random.png)
+![screenshot](images/fortune-random-1.png)
 
 + Next, you want to display the word `No` on the micro:bit only `if` the `answer` is 0.
 
-To do this, click the 'Language' tab and then drag an `if` block onto the bottom of your `onPressA` event.
+To do this, drag an `if` block onto the bottom of your `on button A pressed` event:
 
-![screenshot](images/decision-if.png)
+![screenshot](images/fortune-if.png)
 
-+ Click the down arrow on the `if` block and click `left == right`.
++ Next drag an `=` block as the condition in the `if`:
 
-![screenshot](images/decision-identity.png)
+![screenshot](images/fortune-equals.png)
 
-+ Drag your `answer` variable onto the left side of the `if` block, and type `0` into the right side.
++ Drag your `answer` variable onto the left side of the `if` block.
 
-![screenshot](images/decision-if-finished.png)
+![screenshot](images/fortune-if-finished.png)
 
-+ Any code inside the `if` block will only run if the `answer` is 0. As 0 is `No`, let's add a `say` block.
++ Any code inside the `if` block will only run if the `answer` is 0. As 0 is `No`, let's add a `show text` block.
 
-![screenshot](images/decision-if-no.png)
+![screenshot](images/fortune-no.png)
 
 + Test your code.
 	+ Sometimes the `answer` will be 0, and the micro:bit should say 'No'.
 	+ Sometimes the `answer` will be 1, and nothing will happen!
 
+
 ## Save your project { .save }
 
 ## Challenge: Multiple answers {.challenge}
-Can you add code so that 'Yes' is displayed on your micro:bit if the answer is 1? You can even change the text shown to something more interesting than just 'Yes' and 'No'!
+Can you add code so that 'Yes' is displayed on your micro:bit __if__ the answer is 1? You can even change the text shown to something more interesting than just 'Yes' and 'No'!
 
 You can even make your micro:bit say something like 'Maybe' or 'Ask again' if the answer is 2. To get this working, you'll also need to change your code to choose a random number between 0 and 2!
 
-![screenshot](images/decision-random-change.png)
+Tip: You can right-click on an `if` block to dupicate the block and its contents. 
+
+![screenshot](images/fortune-random-2.png)
 
 ## Save your project { .save }
 

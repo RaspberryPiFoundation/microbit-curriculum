@@ -11,12 +11,16 @@ project-type: sample
 
 You are going to make a game in which players have to guide a wand along a course without making contact. Making contact will add one to the player's score - the player with the lowest score wins!
 
-![screenshot](images/frustration-final.png)
+__Instructions__: If you're reading this online, press __A__ on the micro:bit below to start the game, and then touch pin __0__ to make a connection.
+
+<div class="trinket" style="width:400px;margin: 0 auto;">
+<div style="position:relative;height:0;padding-bottom:81.97%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://pxt.microbit.org/---run?id=71088-38400-20107-39742" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-scripts allow-same-origin" frameborder="0"></iframe></div>
+</div>
 
 For this project you'll need some additional items:
 
 + Metal wire (approx. 50cm);
-+ Modelling clay (Plasticine or similar, not air-drying, needs to be non-conductive);
++ Modelling clay (Plasticine or similar, needs to be non-conductive);
 + Electrical tape (optional);
 + Crocodile clip leads (optional).
 
@@ -28,56 +32,48 @@ Let's start by creating a place to store the number of fails.
 
 ## Activity Checklist { .check }
 
-+ Go to <a href="http://jumpto.cc/mb-new" target="_blank">jumpto.cc/mb-new</a> to start a new project in the Code Kingdoms editor. Call your new project 'Frustration'.
++ Go to <a href="http://jumpto.cc/pxt-new" target="_blank">jumpto.cc/pxt-new</a> to start a new project in the PXT editor. Call your new project 'Frustration'.
 
-+ Drag the `onStart` event (along with the comment above it) into the bin.
++ Delete the `forever` and `start` blocks by dragging them to the palette:
 
 ![screenshot](images/frustration-bin.png)
 
-+ A new game should start when the player presses button A. Click `Add Event` and then `onPressA`.
++ A new game should start when the player presses button A. Click 'Input' and then `on button A pressed`.
 
 ![screenshot](images/frustration-onPressA.png)
 
-+ A __variable__ is a place to store data, such as the number of times the player has touched the wire. To create a new variable, click the 'Library' tab and then click 'Globals'.
++ Now you need a variable to store the number of times you fail in the game by touching the wire with the wand. Click on 'Variables' and then 'Make a new Variable'. Name the variable `fails`.
 
-![screenshot](images/frustration-globals.png)
+![screenshot](images/frustration-variable.png)
 
-+ Click the '+' button, and create a new variable called `fails`.
++ Drag a `set` block from 'Variables' and select `fails`:
 
 ![screenshot](images/frustration-fails.png)
 
-+ You'll need to set the number of `fails` to 0 at the start of a new game. To do this, first drag your `fails` variable into your `onPressA` event.
+This will set the number of fails to zero when you press the A button. 
 
-![screenshot](images/frustration-fails-drag.png)
++ Finally, you can display the number of `fails` on your micro:bit. To do this, first drag a `show number` block from 'Basic' to the end of your script.
 
-+ You can then set the number of fails by clicking the arrow on your `fails` block, clicking 'Number' and then typing `0`.
+![screenshot](images/frustration-show.png)
 
-![screenshot](images/frustration-fails-set.png)
++ Then drag `fails` from 'Variables' into your `set block`.
 
-+ Finally, you can display the number of `fails` on your micro:bit. To do this, first drag a `say` block to the end of your script.
-
-	![screenshot](images/frustration-say.png)
-
-+ To display the number of `fails`, click the arrow on your `say` block and click on your variable.
-
-	![screenshot](images/frustration-say-fails.png)
-
-	Here's how your code should look:
-
-	![screenshot](images/frustration-fails-code.png)
-
+![screenshot](images/frustration-show-fails.png)
+	
 + Click 'run' to test your script. Clicking button A should display the number of fails, which has been set to `0`.
 
 ![screenshot](images/frustration-fails-test.png)
 
-## Challenge: Display an image { .challenge }
+## Challenge: Display an image { .challenge }	
 Can you display an image for 1 second (1000ms) before the number of `fails` are displayed?
 
 ![screenshot](images/frustration-start-img.png)
 
-You'll need to use the following blocks do to this:
+You'll need to use the following blocks from Basic do to this:
 
 ![screenshot](images/frustration-blocks.png)
+
+![screenshot](images/frustration-blocks2.png)
 
 # Step 2: Keeping track of fails { .activity }
 
@@ -85,7 +81,7 @@ Let's add code to keep track of fails.
 
 ## Activity Checklist { .check }
 
-+ You're going to add 1 to your `fails` variable every time a connection is made on Pin0. To do this, Click 'Add Event', and choose `onPressPin0`.
++ You're going to add 1 to your `fails` variable every time a connection is made on Pin0. To do this, drag `on pin P0 pressed` from 'Input'.
 
 ![screenshot](images/frustration-pressPin0.png)
 
@@ -93,31 +89,19 @@ Let's add code to keep track of fails.
 
 ![screenshot](images/frustration-pin0-x.png)
 
-+ You'll then need to add 1 to your `fails` variable. To do this, click the 'Library' tab and then click 'Globals' and drag in your `fails` variable.
++ You'll then need to add 1 to your `fails` variable. To do this, click the drag a `change item by 1` from Variables and change `item` to `fail`. 
 
 ![screenshot](images/frustration-pin0-fails.png)
-
-+ Click the `update` arrow, and choose `left + right`.
-
-![screenshot](images/frustration-pin0-plus.png)
-
-+ Click the `left` arrow and choose your `fails` variable.
-
-![screenshot](images/frustration-pin0-left.png)
-
-+ Click the `right` arrow and type 1. This means that your `fail` variable will add 1 to its old value. Here's how your block should look.
-
-![screenshot](images/frustration-pin0-right.png)
 
 + Finally, you can add code to display the updated number of fails. Here's how your code should look.
 
 ![screenshot](images/frustration-pin0-code.png)
 
-+ Click 'run' to test your code, and press button A to start your game. Each time you press Pin0 you should see your `fails` variable increase by 1.
++ Test your code by pressing button A on the emulator to start your game. Each time you press Pin0 you should see your `fails` variable increase by 1.
 
 ![screenshot](images/frustration-pin0-test.png)
 
-+ Click 'compile' and transfer your script onto your micro:bit. You can press Pin0 by completing a circuit. To do this, place your right thumb on the ground pin (GND) and then tap Pin0 with your left thumb.
++ Click 'Download' and transfer your script onto your micro:bit. You can press Pin0 by completing a circuit. To do this, place your right thumb on the ground pin (GND) and then tap Pin0 with your left thumb.
 
 ![screenshot](images/frustration-pin0-compile.png)
 
@@ -143,7 +127,7 @@ Now that you've coded your game, let's put it all together!
 
 ![screenshot](images/frustration-course-tape.png)
 
-+ Slide your wand through your course, and push the ends of your wire into some clay to stand it up.
++ Slide your wand through your course, and push the ends of your wire into some putty to stand it up.
 
 ![screenshot](images/frustration-course-putty.png)
 
@@ -151,7 +135,7 @@ Now that you've coded your game, let's put it all together!
 
 ![screenshot](images/frustration-gnd-connect.png)
 
-+ You can then connect Pin0 to your wand.
++ You can then connect Pin 0 to your wand.
 
 ![screenshot](images/frustration-pin0-connect.png)
 
@@ -165,6 +149,6 @@ Can you add a cheat to your game, so that pressing button B reduces your score b
 ## Challenge: Personalise your game { .challenge }
 Get some friends to try out your game. If your game is too easy, you can make it harder by:
 
-+ Creating a longer course;
-+ Adding more bends to your course;
-+ Making a wand with a smaller gap.
++ Create a longer course;
++ Add more bends to your course;
++ Make a wand with a smaller gap.

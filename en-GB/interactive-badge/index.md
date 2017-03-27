@@ -11,7 +11,11 @@ project-type: sample
 
 You are going to make an interactive badge, that will show your mood to your friends.
 
-![screenshot](images/badge-final.gif)
+__Instructions__: If you're reading this online, press __A__ on the micro:bit below to display a happy face, and __B__ to show a sad face.
+
+<div class="trinket" style="width:400px;margin: 0 auto;">
+<div style="position:relative;height:0;padding-bottom:81.97%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://pxt.microbit.org/---run?id=90418-17495-16581-63753" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-scripts allow-same-origin" frameborder="0"></iframe></div>
+</div>
 
 # Step 1: Displaying an image { .activity }
 
@@ -19,33 +23,25 @@ Let's start by showing an image on your micro:bit when it's powered on.
 
 ## Activity Checklist { .check }
 
-+ Go to <a href="http://jumpto.cc/mb-new" target="_blank">jumpto.cc/mb-new</a> to start a new project in the Code Kingdoms editor. Call your new project 'Interactive badge'.
++ Go to <a href="http://jumpto.cc/pxt-new" target="_blank">jumpto.cc/pxt-new</a> to start a new project in the PXT editor. Call your new project 'Interactive badge'.
 
 ![screenshot](images/badge-name.png)
 
-+ You should now see the code editor. To draw an image on your micro:bit when it's powered on, drag a `draw` block from the code area (on the left) inside the `onStart` event.
++ You should now see the code editor. To draw an image on your micro:bit when it's powered on, drag a `show leds` block from the code area (on the left) inside the `start` block.
 
 ![screenshot](images/badge-draw.png)
 
-+ If you make a mistake, you can drag the code block and a bin will appear, drag the code block over the bin and the bin will open, let go of the block to delete it.
-
-![screenshot](images/badge-bin.png)
-
-+ To create an image to display, click on the word `Pattern`. You can choose an image to display, or even draw your own.
++ To create an image to display, click on leds that you want to light up:
 
 ![screenshot](images/badge-pattern.png)
 
-+ To test your code, click 'Run' in the menu on the left the screen.
-
-![screenshot](images/badge-menu.png)
-
-+ You should then see your image on the micro:bit.
++ Your code will run automatically in the emulator on the left:
 
 ![screenshot](images/badge-emulator.png)
 
-+ You can also test your code on the micro:bit itself! To do this, click 'Compile' on the menu at the left of the screen.
++ You can also test your code on the micro:bit itself! To do this, click 'Download' on the menu at the left of the screen.
 
-![screenshot](images/badge-compile.png)
+![screenshot](images/badge-download.png)
 
 This will create and download a `.hex` file that will run on your micro:bit.
 
@@ -62,9 +58,9 @@ If you are using __Internet Explorer__ you can choose `Save as` from the menu th
 
 ![screenshot](images/badge-save-explorer.png)
 
-If you are using __Google Chrome__ you can drag the `.hex` file onto the micro:bit drive in the file manager.
+If you are using __Google Chrome__ you can click on the arrow after the downloaded file and choose 'Show in folder' and then drag the highlighted file to the micro:bit drive:
 
-![screenshot](images/badge-drag.png)
+![screenshot](images/badge-save-chrome.png)
 
 + A light on the back of your micro:bit will flash while the file is being copied. Once this has stopped your program will run. You can click the reset button on the back of your micro:bit to restart the program.
 
@@ -76,23 +72,16 @@ If you are using __Google Chrome__ you can drag the `.hex` file onto the micro:b
 
 ## Save your project { .save }
 
-You don't need an account to save your stuff! To save your project, click 'My Scripts' near the bottom of the menu on the left.
+You don't need an account to save your stuff! Your project will automatically be saved in the browser, you can click on `Projects` to see your projects. 
 
-![screenshot](images/badge-scripts.png)
+You can also click save to download your project as a `.hex` file which contains your project:
 
-Select your 'Interactive Badge' project and click the 'save' button.
+![screenshot](images/badge-save.png)
 
-![screenshot](images/save.png)
+To load your project on another computer, click 'Projects' and then 'Import file' and select your `.hex` file.
 
-This will a download your script in a .jsz file, which you can save anywhere you like.
+![screenshot](images/badge-import.png)
 
-To load your project on another computer, click 'Import Code' and select your .jsz file.
-
-![screenshot](images/import.png)
-
-You can then get back to your code by clicking 'edit'.
-
-![screenshot](images/badge-edit.png)
 
 # Step 2: Displaying a happy face { .activity }
 
@@ -100,32 +89,30 @@ Let's show a happy face on your micro:bit when the 'A' button is pressed.
 
 ## Activity Checklist { .check }
 
-+ So far, you've only run code when the micro:bit is powered on. To run code when a button is pressed, you'll need to add a new __event__.
++ So far, you've only run code when the micro:bit is powered on. You can also run code when a button is pressed.
 
-Click 'Add Event' and then choose the `onPressA` event.
+Drag an 'on button pressed' block from input and make sure 'A' is selected:
 
-![screenshot](images/badge-event.png)
+![screenshot](images/badge-button-a.png)
 
-![screenshot](images/badge-event2.png)
+Any code added inside this block will run when the 'A' button on your micro:bit is pressed.
 
-Any code added inside this event will run when the 'A' button on your micro:bit is pressed.
++ Drag another `show leds` block inside your new event, and draw a happy face pattern.
 
-+ Drag another `draw` block inside your new event, and select the happy face pattern.
+![screenshot](images/badge-happy.png)
 
-![screenshot](images/badge-buttonA.png)
++ Test our your new code in the emulator. Press the 'A' button and you should see a happy face on your micro:bit:
 
-+ Test our your new code in the editor, by clicking 'run'. Press the 'A' button and you should see a happy face on your micro:bit.
-
-![screenshot](images/badge-buttonA-emulator.png)
+![screenshot](images/badge-happy-emulator.png)
 
 You can also test out your new code on your micro:bit.
 
 ## Save your project { .save }
 
 ## Challenge: Displaying a sad face {.challenge}
-Can you make your micro:bit display a sad face when the 'B' button is pressed? You'll need to create a new event to do this.
+Can you make your micro:bit display a sad face when the 'B' button is pressed? You'll need to use another 'on button pressed' block to do this and select 'B'. 
 
-![screenshot](images/badge-buttonB-emulator.png)
+![screenshot](images/badge-sad-emulator.png)
 
 ## Save your project { .save }
 
@@ -135,39 +122,25 @@ Let's create a (very) simple animation for your happy and sad faces.
 
 ## Activity Checklist { .check }
 
-+ Add a second `draw` block to your `onPressA` event, with a neutral face.
++ Add a second `show leds` block to your `on button A pressed` block, with a neutral face.
 
-![screenshot](images/badge-anim1.png)
+![screenshot](images/badge-neutral.png)
 
-+ If you run this code to test it, you'll notice that you don't see the first pattern. To fix this, you'll need to add a `wait` block between the two images being displayed.
++ If you run this code to test it, you'll notice that the pattern changes quickly. For a longer delay, you'll need to add a `pause` block between the two images being displayed.
 
-To find the `wait` block, click the 'Language' icon on the left of the editor.
+![screenshot](images/badge-pause.png)
 
-![screenshot](images/badge-wait.png)
+To choose how many milliseconds to wait, click the down-arrow and enter a number. 1000 milliseconds is 1 second, so 250 milliseconds is a quarter of a second.
 
-+ To choose how many milliseconds to wait, click the down-arrow and enter a number. 1000 milliseconds is 1 second, so 250 milliseconds is a quarter of a second.
++ You'll also need to animate your sad face. The easiest way to do this is to duplicate the blocks you've just created. Right-click on a block to duplicate it. Note that the PXT editor just duplicates one block at a time (not multiple blocks like Scratch.)
 
-![screenshot](images/badge-wait2.png)
++ You can then drag these blocks into your `on button B pressed` block. This is how your code should look:
 
-This is how your code should look:
+![screenshot](images/badge-on-b-pressed.png)
 
-![screenshot](images/badge-wait3.png)
++ Test your code, and you should see your animated happy and sad faces when you press button A and B.
 
-+ You'll also need to animate your sad face. The easiest way to do this is to copy the blocks you've just created. Drag the neutral face `draw` block __and__ the `wait` block to the left of the editor, into the 'Copy to snippets' area.
-
-![screenshot](images/badge-snippet-copy.png)
-
-+ If you click the 'Snippets' icon, you should see your 2 blocks.
-
-![screenshot](images/badge-snippets.png)
-
-+ You can then drag these blocks into your `onPressB` event. This is how your code should look:
-
-![screenshot](images/badge-onpressB.png)
-
-+ Test your code, and you should see your animated happy and sad faces!
-
-![screenshot](images/badge-final-animated.gif)
+![screenshot](images/badge-final.gif)
 
 ## Save your project { .save }
 
