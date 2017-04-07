@@ -23,11 +23,9 @@ Let's set your timer to 0 when buttons A and B are pressed together.
 
 ## Activity Checklist { .check }
 
-+ Go to <a href="http://jumpto.cc/pxt-new" target="_blank">jumpto.cc/pxt-new</a> to start a new project in the Code Kingdoms editor. Call your new project 'Timer'.
++ Go to <a href="http://jumpto.cc/pxt-new" target="_blank">jumpto.cc/pxt-new</a> to start a new project in the PXT editor. Name your project 'Timer'.
 
 + Delete the `on start` and `forever` blocks, as you don't need them.
-
-+ Name your project 'Against the Clock'.
 
 + Add a new `on button pressed event` and select `A+B`:.
 
@@ -101,7 +99,7 @@ Use the timer to challenge your friends. For example, you could see how long it 
 ## Challenge: Counting Down { .challenge }
 Can you create a __new__ timer, that counts down to 0? Here's how your new timer should work:
 
-+ Pressing buttons A and B together should set your `timer` to 0
++ Pressing buttons A and B together should set your `timer` to 10
 
 	![screenshot](images/clock-challenge-1.png)
 
@@ -112,3 +110,9 @@ Can you create a __new__ timer, that counts down to 0? Here's how your new timer
 + Pressing button A should take 1 from your `time` variable until it gets to 0. This means you'll need a `while` loop that runs as long as the `time` is greater than (`>`) 0.
 
 	![screenshot](images/clock-challenge-3.png)
+	
+## Accurate timer { .challenge }
+Have you noticed that the timer isn't very accurate! This is because it takes time to display and scroll numbers on the micro:bit. 
+
+Try adjusting the pause to improve the timing. You can use an `if/else` block to have shorter delays for bigger numbers that take longer to scroll. 
+
