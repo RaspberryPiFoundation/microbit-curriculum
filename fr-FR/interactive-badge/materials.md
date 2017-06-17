@@ -1,5 +1,5 @@
 ---
-title: Badge Intéractif - Matériel
+title: Badge Intéractif - Matériaux
 layout: project-materials
 project-resources:
 volunteer-resources:
