@@ -19,23 +19,23 @@ __Instructions__: Si vous lisez ceci en ligne, appuyez sur le bouton __A__ de la
 
 # Step 1: Affiche une image { .activity }
 
-Commençons par afficher une image sur la micro:bit dans elle démarre.
+Commençons par afficher une image sur la micro:bit quand elle démarre.
 
 ## Checklist de l'activité { .check }
 
-+ Va sur jumpto.cc/pxt-new pour démarrer un nouveau projet dans l'éditeur PXT. Appelle ton nouveau projet 'Badge intéractif'.
++ Va sur <a href="http://jumpto.cc/pxt-new" target="blank">jumpto.cc/pxt-new</a> pour démarrer un nouveau projet dans l'éditeur PXT. Appelle ton nouveau projet 'Badge intéractif'.
 
 ![screenshot](images/badge-name.png)
 
-+ Tu dois maintenant voir l'éditeur de code. Pour dessiner une image sur ta micro:bit quand elle démarre, place un bloc `show leds` dans la zone de code (sur la gauche) à l'intérieur du bloc `start`.
++ Tu dois maintenant voir l'éditeur de code. Pour dessiner une image sur ta micro:bit quand elle démarre, place un bloc `montrer LEDs` dans la zone de code (sur la gauche) à l'intérieur du bloc `au démarrage`.
 
 ![screenshot](images/badge-draw.png)
 
-+ Pour créer une image à afficher, clique sur les leds que tu veux allumer&nbsp;:
++ Pour créer une image à afficher, clique sur les LEDs que tu veux allumer&nbsp;:
 
 ![screenshot](images/badge-pattern.png)
 
-+ Ton code s'executera automatiquement dans l'émulateur sur la droite.&nbsp;:
++ Ton code s’exécutera automatiquement dans l'émulateur sur la gauche.&nbsp;:
 
 ![screenshot](images/badge-emulator.png)
 
@@ -45,8 +45,7 @@ Commençons par afficher une image sur la micro:bit dans elle démarre.
 
 Cela va créer et télécharger un fichier `.hex` que tu pourras exécuter sur ta micro:bit.
 
-
-+ Utiliser un cable USB pour brancher ta micro:bit sur ton ordinateur. Tu devrais voir apparaître ta micro:bit dans le gestionnaire de fichiers, sous la forme d'une clé USB.
++ Utilise un cable USB pour brancher ta micro:bit sur ton ordinateur. Tu devrais voir apparaître ta micro:bit dans le gestionnaire de fichiers, sous la forme d'une clé USB.
 
 ![screenshot](images/badge-drive.png)
 
@@ -54,19 +53,21 @@ Cela va créer et télécharger un fichier `.hex` que tu pourras exécuter sur t
 
 Sinon tu devras copier the fichier `.hex` sur la micro:bit.
 
-Si tu utilises __Internet Explorer__ tu peux selectionner `Enregistrer sous` dans le menu qui apparaît au bas de ton navigateur, puis sélectionner le disque micro:bit drive&nbsp;:
+Si tu utilises __Internet Explorer__ tu peux sélectionner `Enregistrer sous` dans le menu qui apparaît au bas de ton navigateur, puis sélectionner le disque micro:bit drive&nbsp;:
 
 ![screenshot](images/badge-save-explorer.png)
 
-Si tu utilises  __Google Chrome__ tu peux cliquer sur la flêche à côté du fichier et choisir 'Show in folder', puis deplacer le fichier sélectionné sur le disque micro:bit&nbsp;:
+Si tu utilises  __Google Chrome__ tu peux cliquer sur la flêche à côté du fichier et choisir 'Afficher dans le dossier', puis déplacer le fichier sélectionné sur le disque micro:bit&nbsp;:
 
 ![screenshot](images/badge-save-chrome.png)
 
-+ Une lumière à l'arrière de ta micro:bit va clignoter pendant quelques instants, le tant que le fichier soit copié. Une fois que c'est terminé, ton programme va démarrer. Tu peux cliquer sur le bouton reset à l'arrière de ta micro:bit pour redémarre le programme.
++ Une lumière à l'arrière de ta micro:bit va clignoter pendant quelques instants, le tant que le fichier soit copié. Une fois que c'est terminé, ton programme va démarrer. Tu peux cliquer sur le bouton reset à l'arrière de ta micro:bit pour redémarrer le programme.
 
 ![screenshot](images/badge-reset.jpg)
 
-+ Tu devrais maintenant voir ton image sur la micro:bit. Si tu préfères, tu peux enlever le cable USB de ta micro:bit, et la brancher sur une batterie. Le programme enregistré sur la micro:bit va démarrer.
++ Tu devrais maintenant voir ton image sur la micro:bit.
+  Si tu préfères, tu peux enlever le cable USB de ta micro:bit, et la brancher sur des piles.
+  Le programme enregistré sur la micro:bit va démarrer.
 
 ![screenshot](images/badge-battery.jpg)
 
@@ -83,7 +84,7 @@ Pour charger ton projet sur un autre ordinateur, clique sur 'Projets', puis sur 
 ![screenshot](images/badge-import.png)
 
 
-# Step 2: Afficher un sourire { .activity }
+# Step 2: Affiche un sourire { .activity }
 
 Montrons maintenant un sourire sur ta micro:bit quand le bouton 'A' est pressé.
 
@@ -97,7 +98,7 @@ Déplace un bloc `Lorsque le bouton est pressé` et vérifie que le bouton A est
 
 Tout le code ajouté à l'intérieur de ce bloc ne s'exécutera que lorsque le bouton 'A' de ta micro:bit est pressé.
 
-+ Place un bloc `show leds` à l'intérieur de ton nouvel évenement, pour dessiner un visage souriant.
++ Place un bloc `montrer LEDs` à l'intérieur de ton nouvel évenement, pour dessiner un visage souriant.
 
 ![screenshot](images/badge-happy.png)
 
@@ -105,13 +106,14 @@ Tout le code ajouté à l'intérieur de ce bloc ne s'exécutera que lorsque le b
 
 ![screenshot](images/badge-happy-emulator.png)
 
-Tu peux aussi tester ton code ton code sur ta micro:bit.
+Tu peux aussi tester ton code sur ta micro:bit.
 
 ## Enregistre ton projet { .save }
 
 ## Challenge: Affiche un visage triste {.challenge}
 
-Can you make your micro:bit display a sad face when the 'B' button is pressed? You'll need to use another 'on button pressed' block to do this and select 'B'.
+Est-ce que tu peux faire en sorte que ta micro:bit affiche un visage triste quand le bouton 'B' est pressé&nbsp;?
+Tu devras utiliser un autre bloc 'lorsque le bouton est pressé' et sélectionner 'B'.
 
 ![screenshot](images/badge-sad-emulator.png)
 
@@ -123,7 +125,7 @@ Créons une animation (très) simple pour tes visages souriants et tristes.
 
 ## Checklist de l'activité { .check }
 
-+ Ajoute un second bloc `show leds` dans ton bloc `on button A pressed`, avec un visage neutre.
++ Ajoute un second bloc `montrer LEDs` dans ton bloc `lorsque le bouton A est pressé`, avec un visage neutre.
 
 ![screenshot](images/badge-neutral.png)
 
@@ -131,11 +133,11 @@ Créons une animation (très) simple pour tes visages souriants et tristes.
 
 ![screenshot](images/badge-pause.png)
 
-Pour choisir combien de millisecondes attendre, clique sur la flêche vers le base et saisit un nombre. 1000 millisecondes c'est 1 seconde, donc 250 millisecondes c'est un quart de seconde.
+Pour choisir combien de millisecondes attendre, clique sur la flêche vers le bas et saisit un nombre. 1000 millisecondes c'est 1 seconde, donc 250 millisecondes c'est un quart de seconde.
 
 + Tu devras aussi animer ton visage triste. La façon la plus simple d'y arriver est de dupliquer les blocs que tu viens juste de créer. Tu remarqueras que l'éditeur PXT duplique seulement un seul bloc à la fois (et pas plusieurs blocs comme dans Scratch).
 
-+ You can then drag these blocks into your `on button B pressed` block. This is how your code should look:
++ Tu peux ensuite déplacer ces blocs dans ton bloc `lorsque le bouton B est pressé`. Voilà à quoi devrait ressembler ton code&nbsp;:
 
 ![screenshot](images/badge-on-b-pressed.png)
 
