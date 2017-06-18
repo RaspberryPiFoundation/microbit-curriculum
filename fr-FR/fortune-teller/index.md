@@ -12,7 +12,7 @@ project-type: sample
 Tu vas utiliser ta micro:bit pour prédire le futur&nbsp;!
 Pose simplement une question à ta micro:bit, et appuie sur un bouton pour découvrir la réponse&nbsp;!
 
-__Instructions__: Si tu lit ceci en ligne, pose une question à la micro:bit ci-dessous et appuie sur __A__ pour voir sa réponse&nbsp;!
+__Instructions__&nbsp;: Si tu lis ceci en ligne, pose une question à la micro:bit ci-dessous et appuie sur __A__ pour voir sa réponse&nbsp;!
 
 <div class="trinket" style="width:400px;margin: 0 auto;">
 <div style="position:relative;height:0;padding-bottom:81.97%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://pxt.microbit.org/---run?id=18828-96734-17356-00995" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-scripts allow-same-origin" frameborder="0"></sirame></div>
