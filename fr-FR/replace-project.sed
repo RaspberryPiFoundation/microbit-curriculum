@@ -1,4 +1,4 @@
-s/## Activity Checklist/## Checkist de l'activité/g
+s/## Activity Checklist/## Check-list de l'activité/g
 s/# Step/# Etape/g
 s/## Save your project/## Enregistre ton projet/g
 s/## Challenge/## Défi/g
