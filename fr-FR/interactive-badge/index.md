@@ -1,15 +1,15 @@
 ---
-title: Badge Intéractif
+title: Badge Interactif
 description: Apprend à faire un badge qui réagit à ton humeur.
 layout: project
-notes: "Badge Intéractif - notes.md"
+notes: "Badge Interactif - notes.md"
 new: true
 project-type: sample
 ---
 
 # Introduction { .intro }
 
-Tu vas faire un badge intéractif, qui réagit à l'humeur de tes amis.
+Tu vas faire un badge interactif, qui réagit à l'humeur de tes amis.
 
 __Instructions__: Si vous lisez ceci en ligne, appuyez sur le bouton __A__ de la micro:bit ci-dessous pour afficher un sourire, et sur le bouton __B__ pour montrer de la tristesse.
 
@@ -17,13 +17,13 @@ __Instructions__: Si vous lisez ceci en ligne, appuyez sur le bouton __A__ de la
 <div style="position:relative;height:0;padding-bottom:81.97%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://pxt.microbit.org/---run?id=90418-17495-16581-63753" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-scripts allow-same-origin" frameborder="0"></iframe></div>
 </div>
 
-# Step 1: Affiche une image { .activity }
+# Etape 1: Affiche une image { .activity }
 
 Commençons par afficher une image sur la micro:bit quand elle démarre.
 
-## Checklist de l'activité { .check }
+## Check-list de l'activité { .check }
 
-+ Va sur <a href="http://jumpto.cc/pxt-new" target="blank">jumpto.cc/pxt-new</a> pour démarrer un nouveau projet dans l'éditeur PXT. Appelle ton nouveau projet 'Badge intéractif'.
++ Va sur <a href="http://jumpto.cc/pxt-new" target="blank">jumpto.cc/pxt-new</a> pour démarrer un nouveau projet dans l'éditeur PXT. Appelle ton nouveau projet 'Badge interactif'.
 
 ![screenshot](images/badge-name.png)
 
@@ -51,13 +51,13 @@ Cela va créer et télécharger un fichier `.hex` que tu pourras exécuter sur t
 
 + Si tu utiliser l'uploader micro:bit alors le fichier `.hex` sera automatiquement copié sur la micro:bit. Demande à un bénévole si tu n'es pas sûr.
 
-Sinon tu devras copier the fichier `.hex` sur la micro:bit.
+Sinon tu devras copier le fichier `.hex` sur la micro:bit.
 
-Si tu utilises __Internet Explorer__ tu peux sélectionner `Enregistrer sous` dans le menu qui apparaît au bas de ton navigateur, puis sélectionner le disque micro:bit drive&nbsp;:
+Si tu utilises __Internet Explorer__ tu peux sélectionner `Enregistrer sous` dans le menu qui apparaît au bas de ton navigateur, puis sélectionner le disque micro:bit&nbsp;:
 
 ![screenshot](images/badge-save-explorer.png)
 
-Si tu utilises  __Google Chrome__ tu peux cliquer sur la flêche à côté du fichier et choisir 'Afficher dans le dossier', puis déplacer le fichier sélectionné sur le disque micro:bit&nbsp;:
+Si tu utilises  __Google Chrome__ tu peux cliquer sur la flèche à côté du fichier et choisir 'Afficher dans le dossier', puis déplacer le fichier sélectionné sur le disque micro:bit&nbsp;:
 
 ![screenshot](images/badge-save-chrome.png)
 
@@ -84,21 +84,21 @@ Pour charger ton projet sur un autre ordinateur, clique sur 'Projets', puis sur 
 ![screenshot](images/badge-import.png)
 
 
-# Step 2: Affiche un sourire { .activity }
+# Etape 2: Affiche un sourire { .activity }
 
 Montrons maintenant un sourire sur ta micro:bit quand le bouton 'A' est pressé.
 
-## Checklist de l'activité { .check }
+## Check-list de l'activité { .check }
 
 + Jusqu'ici, tu as seulement exécuté du code au démarrage de la the micro:bit. Tu peux aussi exécuter du code quand un bouton est pressé.
 
-Déplace un bloc `Lorsque le bouton est pressé` et vérifie que le bouton A est sélectionné&nbsp;
+Place un bloc `Lorsque le bouton est pressé` et vérifie que le bouton A est sélectionné&nbsp;
 
 ![screenshot](images/badge-button-a.png)
 
-Tout le code ajouté à l'intérieur de ce bloc ne s'exécutera que lorsque le bouton 'A' de ta micro:bit est pressé.
+Tout le code ajouté à l'intérieur de ce bloc ne s'exécutera que lorsque le bouton 'A' de ta micro:bit sera pressé.
 
-+ Place un bloc `montrer LEDs` à l'intérieur de ton nouvel évenement, pour dessiner un visage souriant.
++ Place un bloc `montrer LEDs` à l'intérieur de ton nouvel événement, pour dessiner un visage souriant.
 
 ![screenshot](images/badge-happy.png)
 
@@ -119,11 +119,11 @@ Tu devras utiliser un autre bloc 'lorsque le bouton est pressé' et sélectionne
 
 ## Enregistre ton projet { .save }
 
-# Step 3: Crée une animation simple { .activity }
+# Etape 3: Crée une animation simple { .activity }
 
 Créons une animation (très) simple pour tes visages souriants et tristes.
 
-## Checklist de l'activité { .check }
+## Check-list de l'activité { .check }
 
 + Ajoute un second bloc `montrer LEDs` dans ton bloc `lorsque le bouton A est pressé`, avec un visage neutre.
 
@@ -133,7 +133,7 @@ Créons une animation (très) simple pour tes visages souriants et tristes.
 
 ![screenshot](images/badge-pause.png)
 
-Pour choisir combien de millisecondes attendre, clique sur la flêche vers le bas et saisit un nombre. 1000 millisecondes c'est 1 seconde, donc 250 millisecondes c'est un quart de seconde.
+Pour choisir combien de millisecondes attendre, clique sur la flèche vers le bas et saisit un nombre. 1000 millisecondes c'est 1 seconde, donc 250 millisecondes c'est un quart de seconde.
 
 + Tu devras aussi animer ton visage triste. La façon la plus simple d'y arriver est de dupliquer les blocs que tu viens juste de créer. Tu remarqueras que l'éditeur PXT duplique seulement un seul bloc à la fois (et pas plusieurs blocs comme dans Scratch).
 
@@ -147,7 +147,7 @@ Pour choisir combien de millisecondes attendre, clique sur la flêche vers le ba
 
 ## Enregistre ton projet { .save }
 
-## Challenge: Crée ton propre badge intéractif&nbsp;! {.challenge}
+## Défi&nbsp;: Crée ton propre badge interactif&nbsp;! {.challenge}
 
 Crée ton propre badge, tu peux utiliser les images ou les animations que tu souhaites&nbsp;!
 
