@@ -1,5 +1,5 @@
 ---
-title: Fortune Teller - Materials
+title: Diseuse de bonne aventure - Materials
 layout: project-materials
 project-resources: 
 volunteer-resources:

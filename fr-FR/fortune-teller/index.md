@@ -1,6 +1,6 @@
 ---
-title: Fortune Teller
-description: Use your micro:bit to read the future!
+title: Diseuse de bonne aventure
+description: Utilise ta micro:bit pour prédire le futur&nbsp;!
 layout: project
 notes: "Fortune Teller - notes.md"
 new: true
@@ -9,101 +9,112 @@ project-type: sample
 
 # Introduction { .intro }
 
-You are going to code your micro:bit to read the future! Simply ask the micro:bit a quesition, and press a button to find out the answer!
+Tu vas utiliser ta micro:bit pour prédire le futur&nbsp;!
+Pose simplement une question à ta micro:bit, et appuie sur un bouton pour découvrir la réponse&nbsp;!
 
-__Instructions__: If you're reading this online, ask the micro:bit below a question and press __A__ to get your answer!
+__Instructions__: Si tu lit ceci en ligne, pose une question à la micro:bit ci-dessous et appuie sur __A__ pour voir sa réponse&nbsp;!
 
 <div class="trinket" style="width:400px;margin: 0 auto;">
-<div style="position:relative;height:0;padding-bottom:81.97%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://pxt.microbit.org/---run?id=18828-96734-17356-00995" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-scripts allow-same-origin" frameborder="0"></iframe></div>
+<div style="position:relative;height:0;padding-bottom:81.97%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://pxt.microbit.org/---run?id=18828-96734-17356-00995" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-scripts allow-same-origin" frameborder="0"></sirame></div>
 </div>
 
-# Etape 1: Scrolling text { .activity }
+# Etape 1&nbsp;: Faire défiler du texte { .activity }
 
-Let's start by scrolling some text instructions on your micro:bit.
+Commençons par afficher les instructions sur ta micro:bit sous forme d'un texte qui défile.
 
-## Checkist de l'activité { .check }
+## Check-list de l'activité { .check }
 
-+ Go to <a href="http://jumpto.cc/pxt-new" target="_blank">jumpto.cc/pxt-new</a> to start a new project in the PXT editor. Call your new project 'Fortune Teller'.
++ Va sur <a href="http://jumpto.cc/pxt-new" target="blank">jumpto.cc/pxt-new</a> pour démarrer un nouveau projet avec l'éditeur PXT.
+  Appelle ton projet 'Diseuse de bonne aventure'.
 
-You can delete the `forever` block by dragging it over the palette, you don't need it for this project. 
+Tu peux supprimer le bloc `toujours` en le déplaçant sur le palette, tu n'en auras pas besoin pour ce projet.
 
-+ Drag a `show text` block inside yo	ur `start` start.
++ Place un bloc `afficher texte` à l'intérieur du bloc `au démarrage`.
 
 ![screenshot](images/fortune-press-a.png)
 
-+ Test out your code. You can test it out in the emulator or on the micro:bit itself.
++ Teste ton code.
+  Tu peux le tester sur l'émulateur ou bien sur la micro:bit elle-même.
 
 ## Enregistre ton projet { .save }
 
-# Etape 2: Making a decision { .activity }
+# Etape 2&nbsp;: Prendre un décision { .activity }
 
-Let's get your micro:bit to make a decision by randomly choosing a number (`0` for 'No' and `1` for 'Yes').
+Laissons la micro:bit prendre une décision en choisissant un nombre au hasard (`0` pour 'Non' et `1` pour 'Oui')
 
-## Checkist de l'activité { .check }
+## Check-list de l'activité { .check }
 
-+ Add a new `on button A pressed` event to your code.
++ Ajoute un nouvel événement `lorsque le bouton A est pressé` dans ton code.
 
 ![screenshot](images/fortune-on-a-pressed.png)
 
-+ Let's create a new variable to store the answer. Click the 'Variables' and then click 'Make a variable'.
++ Créons une variable pour stocker la réponse.
+  Clique sur 'Variables', puis sur 'Créer une variable'.
 
 ![screenshot](images/fortune-variables.png)
 
-+ Name the new variable called `answer`.
++ Nomme la nouvelle variable `réponse`.
 
 ![screenshot](images/fortune-answer.png)
 
-+ Drag a `set` block fom Variables into your `on button A pressed` block and select the `answer` variable.
++ Place un bloc `définir à` depuis Variables dans ton bloc `lorsque le bouton A est pressé`,
+  et sélectionne la variable `réponse`.
 
 ![screenshot](images/fortune-set.png)
 
-As you can see, the `to` in the block means that you can set the answer to display.
+Comme tu peux le voir, le `à` dans le bloc signifie que tu dois régler la réponse à afficher.
 
-+ Click 'Math' and drag a `pick random` block after the `to`:
++ Clique sur 'Math' et place un bloc `choisir au hasard entre 0 et ...` après le `à`.
 
 ![screenshot](images/fortune-random.png)
 
-+ Tell the random block to choose a number between 0 and 1. Here's how your code should look:
++ Configure le bloc `choisir au hasard` pour qu'il prenne un nombre entre 0 et 1.
+  Voici à quoi devrait ressembler ton code&nbsp;:
 
 ![screenshot](images/fortune-random-1.png)
 
-+ Next, you want to display the word `No` on the micro:bit only `if` the `answer` is 0.
++ Ensuite, tu veux afficher le mot `Non` sur la micro:bit seulement `si` la `réponse` vaut 0.
 
-To do this, drag an `if` block onto the bottom of your `on button A pressed` event:
+Pour cela, place un bloc `si` tout en bas de l'événement `lorsque le bouton A est pressé`&nbsp;
 
 ![screenshot](images/fortune-if.png)
 
-+ Next drag an `=` block as the condition in the `if`:
++ Place un bloc `=` en tant que condition dans le bloc `si`&nbsp;:
 
 ![screenshot](images/fortune-equals.png)
 
-+ Drag your `answer` variable onto the left side of the `if` block.
++ Place ta variable `réponse` dans la partie gauche de la condition du bloc `si`.
 
 ![screenshot](images/fortune-if-finished.png)
 
-+ Any code inside the `if` block will only run if the `answer` is 0. As 0 is `No`, let's add a `show text` block.
++ Le code placé à l'intérieur du bloc `si` ne s'exécutera que si la `réponse` vaut 0.
+   Etant donnée que le 0 correspond à `Non`, ajoutons un autre bloc `afficher texte`.
 
 ![screenshot](images/fortune-no.png)
 
-+ Test your code.
-	+ Sometimes the `answer` will be 0, and the micro:bit should say 'No'.
-	+ Sometimes the `answer` will be 1, and nothing will happen!
++ Teste ton code&nbsp;
+	+ Parfois la `réponse` vaudra 0, et la micro:bit devrait dire 'Non'.
+	+ Parfois la `réponse` vaudra 1, et rien ne se passera&nbsp;!
 
 
 ## Enregistre ton projet { .save }
 
-## Défi: Multiple answers {.challenge}
-Can you add code so that 'Yes' is displayed on your micro:bit __if__ the answer is 1? You can even change the text shown to something more interesting than just 'Yes' and 'No'!
+## Défi&nbsp;: Plusieurs réponses {.challenge}
 
-You can even make your micro:bit say something like 'Maybe' or 'Ask again' if the answer is 2. To get this working, you'll also need to change your code to choose a random number between 0 and 2!
+Sauras-tu afficher 'Oui' sur ta micro:bit __si__ la `réponse` est 1&nbsp;?
+Tu peux même changer le texte affiché par quelque chose de plus intéressant que juste 'Oui' ou 'Non'&nbsp;!
 
-Tip: You can right-click on an `if` block to dupicate the block and its contents. 
+Tu peux même faire en sorte que ta micro:bit dise quelque chose comme 'Peut être' ou 'Demande encore' si la réponse est 2.
+Pour que cela fonctionne, tu devras aussi changer ton code pour choisir une valeur entre 0 et 2&nbsp;!
+
+Astuce&nbsp;: tu peux faire un clic-droit sur un bloc `si` pour dupliquer ce bloc et son contenu.
 
 ![screenshot](images/fortune-random-2.png)
 
 ## Enregistre ton projet { .save }
 
-## Défi: Shake your micro:bit {.challenge}
-Can you code your micro:bit to make a decision when it is shaken instead of when a button is pressed?
+## Défi&nbsp;: Secoue ta micro:bit {.challenge}
+
+Peux-tu programmer ta micro:bit pour qu'elle prenne une décision lorsqu'on la secoue au lieu de lorsque un bouton est pressé.
 
 ## Enregistre ton projet { .save }
