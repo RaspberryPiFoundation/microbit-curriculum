@@ -12,7 +12,7 @@ project-type: sample
 Tu vas utiliser ta micro:bit pour prédire le futur&nbsp;!
 Pose simplement une question à ta micro:bit, et appuie sur un bouton pour découvrir la réponse&nbsp;!
 
-__Instructions__: Si tu lit ceci en ligne, pose une question à la micro:bit ci-dessous et appuie sur __A__ pour voir sa réponse&nbsp;!
+__Instructions__&nbsp;: Si tu lis ceci en ligne, pose une question à la micro:bit ci-dessous et appuie sur __A__ pour voir sa réponse&nbsp;!
 
 <div class="trinket" style="width:400px;margin: 0 auto;">
 <div style="position:relative;height:0;padding-bottom:81.97%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://pxt.microbit.org/---run?id=18828-96734-17356-00995" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-scripts allow-same-origin" frameborder="0"></sirame></div>
@@ -27,7 +27,7 @@ Commençons par afficher les instructions sur ta micro:bit sous forme d'un texte
 + Va sur <a href="http://jumpto.cc/pxt-new" target="blank">jumpto.cc/pxt-new</a> pour démarrer un nouveau projet avec l'éditeur PXT.
   Appelle ton projet 'Diseuse de bonne aventure'.
 
-Tu peux supprimer le bloc `toujours` en le déplaçant sur le palette, tu n'en auras pas besoin pour ce projet.
+Tu peux supprimer le bloc `toujours` en le déplaçant sur la palette, tu n'en auras pas besoin pour ce projet.
 
 + Place un bloc `afficher texte` à l'intérieur du bloc `au démarrage`.
 
@@ -88,12 +88,12 @@ Pour cela, place un bloc `si` tout en bas de l'événement `lorsque le bouton A 
 ![screenshot](images/fortune-if-finished.png)
 
 + Le code placé à l'intérieur du bloc `si` ne s'exécutera que si la `réponse` vaut 0.
-   Etant donnée que le 0 correspond à `Non`, ajoutons un autre bloc `afficher texte`.
+   Etant donné que le 0 correspond à `Non`, ajoutons un autre bloc `afficher texte`.
 
 ![screenshot](images/fortune-no.png)
 
 + Teste ton code&nbsp;
-	+ Parfois la `réponse` vaudra 0, et la micro:bit devrait dire 'Non'.
+	+ Parfois la `réponse` vaudra 0, et la micro:bit devra dire 'Non'.
 	+ Parfois la `réponse` vaudra 1, et rien ne se passera&nbsp;!
 
 
