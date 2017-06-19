@@ -1,6 +1,6 @@
 ---
 title: Frustration
-description: Guide a wand along a course without making contact.
+description: Guide une baguette le long de d'un circuit sans le toucher.
 layout: project
 notes: "Frustration - notes.md"
 new: true
@@ -9,146 +9,169 @@ project-type: sample
 
 # Introduction { .intro }
 
-You are going to make a game in which players have to guide a wand along a course without making contact. Making contact will add one to the player's score - the player with the lowest score wins!
+Tu vas faire un jeu dans lequel les joueurs devront guider un baguette le long d'un circuit sans le toucher.
+Toucher ajoutera un au score du joueur, le joueur avec le plus petit score  gagne&nbsp;!
 
-__Instructions__: If you're reading this online, press __A__ on the micro:bit below to start the game, and then touch pin __0__ to make a connection.
+__Instructions__&nbsp;: Si tu lis ceci en ligne , appuie sur  __A__  sur la micro:bit ci-dessous pour démarrer le jeu, puis touche la broche __0__ pour faire une connexion.
 
 <div class="trinket" style="width:400px;margin: 0 auto;">
 <div style="position:relative;height:0;padding-bottom:81.97%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://pxt.microbit.org/---run?id=71088-38400-20107-39742" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-scripts allow-same-origin" frameborder="0"></iframe></div>
 </div>
 
-For this project you'll need some additional items:
+Pour ce projet, tu auras besoin de&nbsp;:
 
-+ Metal wire (approx. 50cm);
-+ Modelling clay (Plasticine or similar, needs to be non-conductive);
-+ Electrical tape (optional);
-+ Crocodile clip leads (optional).
++ Fil de fer  (environ 50cm);
++ Pâte à modeler
++ Ruban adhésif isolant (optionnel);
++ Pinces Crocodile (optionnel).
 
 ![screenshot](images/frustration-items.png)
 
-# Etape 1: Storing fails { .activity }
+# Etape 1: Stocker les échecs { .activity }
 
-Let's start by creating a place to store the number of fails.
+Commençons par créer un endroit où stocker le nombre d'échecs.
 
 ## Check-list de l'activité { .check }
 
-+ Go to <a href="http://jumpto.cc/pxt-new" target="_blank">jumpto.cc/pxt-new</a> to start a new project in the PXT editor. Call your new project 'Frustration'.
++ Va sur <a href="http://jumpto.cc/pxt-new" target="blank">jumpto.cc/pxt-new</a> pour démarrer un nouveau projet dans l'éditeur PXT.
+  Appelle ton nouveau projet 'Frustration'.
 
-+ Delete the `forever` and `start` blocks by dragging them to the palette:
++ Supprime les blocs `toujours` et `au démarrage ` en les déplaçant sur la palette, dans la corbeille&nbsp;:
 
 ![screenshot](images/frustration-bin.png)
 
-+ A new game should start when the player presses button A. Click 'Input' and then `on button A pressed`.
++ Une nouvelle partie commence quand le joueur appuie sur le bouton A.
+  Clique sur 'Entrée', puis `lorsque le bouton A est pressé`.
 
 ![screenshot](images/frustration-onPressA.png)
 
-+ Now you need a variable to store the number of times you fail in the game by touching the wire with the wand. Click on 'Variables' and then 'Make a new Variable'. Name the variable `fails`.
++ Maintenant tu as besoin d'une variable pour stocker le nombre de fois où tu vas échouer et toucher le fil avec la baguette.
+  Clique sur 'Variables', puis 'Créer une variable'.
+  Nomme la variable `échecs`.
 
 ![screenshot](images/frustration-variable.png)
 
-+ Drag a `set` block from 'Variables' and select `fails`:
++ Place un bloc `définir ... à` depuis 'Variables' et sélectionne `échecs`&nbsp;:
 
 ![screenshot](images/frustration-fails.png)
 
-This will set the number of fails to zero when you press the A button. 
+Ceci mettra à zéro le nombre d'échecs quand on appuie sur le bouton A.
 
-+ Finally, you can display the number of `fails` on your micro:bit. To do this, first drag a `show number` block from 'Basic' to the end of your script.
++ Enfin, tu peux afficher le nombre d'`échecs` sur ta micro:bit.
+  Pour cela, place un bloc `montrer nombre`, depuis 'Basique', à la fin du script.
 
 ![screenshot](images/frustration-show.png)
 
-+ Then drag `fails` from 'Variables' into your `set block`.
++ Ensuite place `échecs` depuis 'Variables' dans le bloc `montrer nombre`.
 
 ![screenshot](images/frustration-show-fails.png)
-	
-+ Click 'run' to test your script. Clicking button A should display the number of fails, which has been set to `0`.
+
++ Clique sur 'lancer' pour tester ton script.
+  Cliquer sur le bouton A devrait afficher le nombre d'échecs, qui a été mis à `0`.
 
 ![screenshot](images/frustration-fails-test.png)
 
-## Défi: Display an image { .challenge }	
-Can you display an image for 1 second (1000ms) before the number of `fails` are displayed?
+## Défi: Afficher une image { .challenge }
+
+Sauras-tu afficher une image pendant 1 seconde (1000ms) avant que le nombre d'`échecs` soit affiché&nbsp;?
 
 ![screenshot](images/frustration-start-img.png)
 
-You'll need to use the following blocks from Basic do to this:
+Tu devras utiliser les blocs suivants depuis Basique pour atteindre ton but&nbsp;:
 
 ![screenshot](images/frustration-blocks.png)
 
 ![screenshot](images/frustration-blocks2.png)
 
-# Etape 2: Keeping track of fails { .activity }
+# Etape 2: Compter le nombre d'échecs { .activity }
 
-Let's add code to keep track of fails.
+Ajoutons le code qui compte le nombre d'échecs.
 
 ## Check-list de l'activité { .check }
 
-+ You're going to add 1 to your `fails` variable every time a connection is made on Pin0. To do this, drag `on pin P0 pressed` from 'Input'.
++ Tu vas ajouter 1 à la variable `fails` chaque fois qu'une connexion est faite sur la broche P0.
+  Pour cela, prend un bloc `lorsque le pin P0 est pressé` dans 'Entrées'.
 
 ![screenshot](images/frustration-pressPin0.png)
 
-+ Next, add 2 blocks to display a cross for 1 second when Pin0 is pressed.
++ Ensuite, ajoute 2 blocs pour afficher une croix pendant 1 seconde lorsque la broche P0 est pressée.
 
 ![screenshot](images/frustration-pin0-x.png)
 
-+ You'll then need to add 1 to your `fails` variable. To do this, click the drag a `change item by 1` from Variables and change `item` to `fail`. 
++ Tu devras ensuite ajouter 1 à la variable `échecs`.
+  Pour cela, prend un bloc `changer item par 1` dans 'Variables' et remplace `item` par `échecs`.
 
 ![screenshot](images/frustration-pin0-fails.png)
 
-+ Finally, you can add code to display the updated number of fails. Here's how your code should look.
++ Enfin, tu peux ajouter le code pour afficher le nombre d'`échecs` mis à jour.
+  Voilà à quoi devrait ressembler ton code.
 
 ![screenshot](images/frustration-pin0-code.png)
 
-+ Test your code by pressing button A on the emulator to start your game. Each time you press Pin0 you should see your `fails` variable increase by 1.
++ Teste ton code en appuyant sur le bouton A de l'émulateur pour démarrer le jeu.
+  Chaque fois que tu appuies sur la broche P0, tu devrais voir la variable `échecs` augmenter de 1.
 
 ![screenshot](images/frustration-pin0-test.png)
 
-+ Click 'Download' and transfer your script onto your micro:bit. You can press Pin0 by completing a circuit. To do this, place your right thumb on the ground pin (GND) and then tap Pin0 with your left thumb.
++ Clique sur 'Télécharger' e transfère ton script sur ta micro:bit.
+  Tu peux appuyer sur la broche P0 en fermant le circuit.
+  Pour cela, place ton pouce droit sur la masse (broche GND) et touche la broche P0 avec ton pouce gauche.
 
 ![screenshot](images/frustration-pin0-compile.png)
 
-# Etape 3: Building your game { .activity }
+# Etape 3: Construit ton jeu { .activity }
 
-Now that you've coded your game, let's put it all together!
+Maintenant que tu as programmé ton jeu, assemblons tout ensemble&nbsp;!
 
 ## Check-list de l'activité { .check }
 
-+ First, let's make your wand. Take a piece of wire about 20cm long and bend it in half, making a loop at the top.
++ D'abord, créons une baguette.
+  Prend un morceau de fil de fer d'environ 20cm de long et replie-le en deux, en créant un boucle à l'extrémité.
 
 ![screenshot](images/frustration-wand-bend.png)
 
-+ You can then twist the two pieces of wire together.
++ Tu peux ensuite entortiller les 2 extrémités du file ensemble.
 
 ![screenshot](images/frustration-wand-twist.png)
 
-+ To make the course, take another piece of wire about 30cm long and bend the middle part of the wire into shape. You should bend up one end of the course.
++ Pour faire le circuit, prend une autre morceau de fil d'environ 30cm de long et tord la partie centrale du fil pour lui donner une forme biscornue.
+  Tu devras tordre vers le haut une des extrémités du circuit.
 
 ![screenshot](images/frustration-course-bend.png)
 
-+ If you have some electrical tape, wrap some around the two ends of the wire, leaving some exposed metal at both ends.
++ Si tu as du ruban adhésif isolant, enveloppe les 2 extrémités du circuit,
+  en laissant dépasser un peu de métal  à chacune des extrémités.
 
 ![screenshot](images/frustration-course-tape.png)
 
-+ Slide your wand through your course, and push the ends of your wire into some putty to stand it up.
++ Enfile ta baguette sur le circuit, et pique une des extrémités du fil dans la pate à modeler pour que le circuit tienne debout tout seul.
 
 ![screenshot](images/frustration-course-putty.png)
 
-+ You can now connect your game to your micro:bit using a crocodile clip lead or some wire. Firstly, connect the ground pin (GND) to one end of your course.
++ Tu peux brancher ton jeu à ta micro:bit en utilisant des pinces crocodiles.
+  Connecte d'abord la masse (broche GND) à l'une des extrémités du circuit.
 
 ![screenshot](images/frustration-gnd-connect.png)
 
-+ You can then connect Pin 0 to your wand.
++ Tu peux ensuite connecter la broche P0 à ta baguette.
 
 ![screenshot](images/frustration-pin0-connect.png)
 
-+ Test your game. Press button A and your score should be set to 0. Each time your wand touches the course, the circuit is completed and your micro:bit should add 1 to your number of fails.
++ Teste ton jeu.
+  Appuie sur le bouton A et ton score sera remis à 0.
+  Chaque fois que ta baguette touche le circuit, le courant passe entre la baguette et le circuit et ta micro:bit ajoute 1 au nombre d'échecs.
 
 ![screenshot](images/frustration-final.png)
 
-## Défi: Cheat mode! { .challenge }
-Can you add a cheat to your game, so that pressing button B reduces your score by 1?
+## Défi: Mode triche&nbsp;! { .challenge }
 
-## Défi: Personalise your game { .challenge }
-Get some friends to try out your game. If your game is too easy, you can make it harder by:
+Sauras-tu ajouter un peu de triche dans ton jeu, et faire en sorte qu'appuyer sur le bouton B diminue le score 1&nbsp;?
 
-+ Create a longer course;
-+ Add more bends to your course;
-+ Make a wand with a smaller gap.
+## Défi: Personnalise ton jeu { .challenge }
+
+Demande à tes amis d'essayer ton jeu.
+Si ton jeu est trop facile, tu peux le rendre plus corsé en &nbsp;:
+
++ Créant un circuit plus long,
++ En ajoutant plus de virage dans ton circuit,
++ En réduisant la taille de la boucle de ta baguette.

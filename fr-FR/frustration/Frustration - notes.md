@@ -1,38 +1,44 @@
 ---
-title: Frustration — Notes for Club Leaders
+title: Frustration — Notes pour les responses du Club
 ---
 
-#Introduction:
-In this project, children will learn how to use variables in making a wire-following game. The aim of the game is to guide a wand along a course without making contact. Making contact will add one to the player's score - the player with the lowest score wins.
+# Introduction
 
-#Resources
+Dans ce projet, les enfants apprendront à utiliser des variables en faisant un jeu où il faut suivre le fil.
+Le but du jeu est de guider un baguette le long d'un circuit sans toucher.
+Toucher ajoutera un au score du joueur, le joueur avec le plus petit score gagne.
 
-To complete this project, children will need:
+# Ressources
 
-+ Metal wire (approx. 50cm);
-+ Putty;
-+ Electrical tape (optional);
-+ Crocodile leads (optional).
+Pour réaliser ce projet, les enfants auront besoin&nbsp;:
 
-Steps 1 and 2 of this project can be completed without this equipment.
++ Fil de fer (environ 50cm);
++ Pâte à modeler
++ Ruban adhésif isolant (optionnel);
++ Pinces Crocodile (optionnel).
 
-For this project, the [PXT](http://jumpto.cc/pxt-new) microbit editor should be used.
+Les étapes 1 et 2 de ce projet peuvent être réalisée sans cet équipement.
 
-You can find a completed version of this project at [pxt.microbit.org/#pub:71088-38400-20107-39742](https://pxt.microbit.org/#pub:71088-38400-20107-39742), and the compiled .hex file can be downloaded by clicking the 'Download Project Materials' link for this project, which contains:
+Pour ce projet, l'éditeur micro:bit [PXT](http://jumpto.cc/pxt-new) devra être utilisé.
+
+Vous pouvez trouver un version terminée de ce projet ici [pxt.microbit.org/#pub:71088-38400-20107-39742](https://pxt.microbit.org/#pub:71088-38400-20107-39742),
+et le fichier .hex compilé peut être téléchargé en cliquant sur le lien 'Matériaux' de ce projet, il contient&nbsp;:
 
 + Frustration.hex
 
-#Learning Objectives
-+ Variables;
-+ Input/output (I/O) pins.
+# Objectifs d'apprentissage
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
++ Variables
++ Broches d'entrée/sortie
 
-+ [Use basic programming constructs to create simple programs.](https://www.raspberrypi.org/curriculum/programming/creator)
+Ce projet couvre des éléments du [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-+ [Use basic digital, analogue, and electromechanical components.](https://www.raspberrypi.org/curriculum/physical-computing/creator)
++ [Utiliser des constructions de programmation basiques pour créer des programmes simples.](https://www.raspberrypi.org/curriculum/programming/creator)
 
-#Challenges
-+ "Display an image" - Display an image on the micro:bit before the number of `fails` is displayed.
-+ "Cheat mode!" - Subtract 1 from the `fails` variable when button B is pressed.
-+ "Personalise your game" - Make changes to the wand and course in order to make the game more difficult.
++ [Utiliser des composants basiques numériques, analogiques, ou électromécaniques.](https://www.raspberrypi.org/curriculum/physical-computing/creator)
+
+# Défis
+
++ "Afficher une image" - Afficher une images sur la micro:bit avant que le nombre d'`echecs` ne soit affiché.
++ "Mode triche&nbsp;!" - Soustrait 1 du nombre d'`échecs` lorsque le bouton B est pressé.
++ "Personnalise ton jeu" - Fait des changements dans la baguette et le circuit pour rendre le jeu plus difficile.
