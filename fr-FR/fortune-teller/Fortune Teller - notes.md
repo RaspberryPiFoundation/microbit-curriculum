@@ -13,7 +13,7 @@ et donnera à l'utilisateur la réponse à la question qui aura été posée à 
 Pour ce projet, l'éditeur micro:bit [Code Kingdoms](http://jumpto.cc/mb-new) devra être utilisé.
 
 Vous pourrez trouver une version terminée de ce projet ici [pxt.microbit.org/#pub:18828-96734-17356-00995](https://pxt.microbit.org/#pub:18828-96734-17356-00995),
-et le fichier compilé .hex peuvent être téléchargé en cliquant sur le lien 'Matériaux du projet', qui contient&nbsp;:
+et le fichier compilé .hex peuvent être téléchargés en cliquant sur le lien 'Matériaux du projet', qui contient&nbsp;:
 
 + FortuneTeller.hex
 
