@@ -73,7 +73,8 @@ Si tu utilises  __Google Chrome__ tu peux cliquer sur la flèche à côté du fi
 
 ## Enregistre ton programme { .save }
 
-Tu n'as pas besoin d'un compte pour enregistrer ton programme&nbsp;! Ton projet sera automatiquement dans ton navigateur, tu peux cliquer sur `Projets` pour voir tes projets.
+Tu n'as pas besoin d'un compte pour enregistrer ton programme&nbsp;!
+Ton projet sera automatiquement enregistré dans ton navigateur, tu peux cliquer sur `Projets` pour voir tes projets.
 
 Tu peux aussi cliquer sur Enregistrer pour télécharger ton projet sous la forme d'un fichier `.hex` qui contient ton programme&nbsp;:
 

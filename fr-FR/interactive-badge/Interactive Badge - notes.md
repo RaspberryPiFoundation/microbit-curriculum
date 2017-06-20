@@ -1,5 +1,5 @@
 ---
-title: Badge Intéractif — Notes pour les Leaders du Club
+title: Badge Interactif — Notes pour les Leaders du Club
 ---
 
 # Introduction
@@ -26,4 +26,4 @@ Ce projet couvre des éléments des thèmes suivants du [Cursus de construction 
 
 # Défis
 + "Afficher un visage triste" - ajouter un nouvel évenement  `lorsque le bouton est pressé`&nbsp;;
-+ "Crée ton propre badge intéractif&nbsp;!" - consolidation des connaissances acquises dans ce projet.
++ "Crée ton propre badge interactif&nbsp;!" - consolidation des connaissances acquises dans ce projet.
