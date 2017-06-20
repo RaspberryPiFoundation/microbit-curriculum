@@ -1,25 +1,29 @@
 ---
-title: Rate Your Mates — Notes for Club Leaders
+title: Note tes potes — Notes pour les Responsables de Club
 ---
 
-#Introduction:
-In this project, children will learn how to make use of variables and random numbers by making a compatibility program. Two users will each press a button on the micro:bit, which will then tell them their compatibility percentage.
+# Introduction
 
-#Resources
-For this project, the [PXT](http://jumpto.cc/mb-new) microbit editor should be used.
+Dans ce projet, les enfants apprendront à utiliser les variables et les nombres aléatoires en créant un programme de compatibilité.
+Deux utilisateurs appuieront chacun sur un bouton de la micro:bit, qui leur indiquera leur pourcentage de compatibilité.
 
-You can find a completed version of this project at [pxt.microbit.org/#pub:57756-45098-79806-84952](https://pxt.microbit.org/#pub:57756-45098-79806-84952, and the compiled .hex file can be downloaded by clicking the 'Download Project Materials' link for this project, which contains:
+# Ressources
+
+Pour ce projet, l'éditeur de code [PXT](http://jumpto.cc/mb-new) pour micro:bit devra être utilisé.
+
+Vous pouvez trouvé un version terminé de ce projet ici[pxt.microbit.org/#pub:57756-45098-79806-84952](https://pxt.microbit.org/#pub:57756-45098-79806-84952),
+et le fichier .hex compilé peut être téléchargé en cliquant sur le lien 'Matérieux du Projet' de ce projet, il contient&nbsp;:
 
 + microbit-Rate-Your-Mates.hex
 
-#Learning Objectives
-+ `>` and `<` relational operators;
-+ Repetition (`for` loop).
+# Objectifs d'apprentissage
++ Les opérateurs de comparaison `>` et `<`,
++ La répétition (boucle `répéter N fois pour`).
 
 This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
 + [Use basic programming constructs to create simple programs.](https://www.raspberrypi.org/curriculum/programming/creator)
 
-#Challenges
-+ "Low rating" - Use of `if` statement and `<` relational operator to show a cross or a sad face if the rating is under 25.
-+ "More animations" - Use of a `for` loop to create more animations.
+# Défis
++ "Mauvaise note" - Utiliser le bloc `si` et l'opérateur `<` pour afficher un croix ou visage triste si la note est inférieure à 25.
++ "Plus d'animation" - Utilise une boucle `répéter N fois pour` pour créer plus d'animations.
