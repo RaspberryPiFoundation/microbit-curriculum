@@ -4,7 +4,7 @@ title: Badge Interactif — Notes pour les Leaders du Club
 
 # Introduction
 
-Dans ce projet, les enfants apprendront comment utiliser les entrées pour exécuter des séquences d'instructions, en créant un badge intéractif. Presser un des boutons de la micro:bit changera l'image
+Dans ce projet, les enfants apprendront comment utiliser les entrées pour exécuter des séquences d'instructions, en créant un badge interactif. Presser un des boutons de la micro:bit changera l'image
 qui est affichée.
 
 # Ressources
@@ -25,5 +25,5 @@ Ce projet couvre des éléments des thèmes suivants du [Cursus de construction 
 + [Utiliser des constructions de programmation basiques pour créer des programmes simples.](https://www.raspberrypi.org/curriculum/programming/creator)
 
 # Défis
-+ "Afficher un visage triste" - ajouter un nouvel évenement  `lorsque le bouton est pressé`&nbsp;;
++ "Afficher un visage triste" - ajouter un nouvel événement  `lorsque le bouton est pressé`&nbsp;;
 + "Crée ton propre badge interactif&nbsp;!" - consolidation des connaissances acquises dans ce projet.
