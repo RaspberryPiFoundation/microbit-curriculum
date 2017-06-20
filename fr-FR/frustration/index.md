@@ -10,7 +10,7 @@ project-type: sample
 # Introduction { .intro }
 
 Tu vas faire un jeu dans lequel les joueurs devront guider un baguette le long d'un circuit sans le toucher.
-Toucher ajoutera un au score du joueur, le joueur avec le plus petit score  gagne&nbsp;!
+Toucher ajoutera un au score du joueur, le joueur avec le plus petit score gagne&nbsp;!
 
 __Instructions__&nbsp;: Si tu lis ceci en ligne , appuie sur  __A__  sur la micro:bit ci-dessous pour démarrer le jeu, puis touche la broche __0__ pour faire une connexion.
 
@@ -113,7 +113,7 @@ Ajoutons le code qui compte le nombre d'échecs.
 
 ![screenshot](images/frustration-pin0-test.png)
 
-+ Clique sur 'Télécharger' e transfère ton script sur ta micro:bit.
++ Clique sur 'Télécharger' et transfère ton script sur ta micro:bit.
   Tu peux appuyer sur la broche P0 en fermant le circuit.
   Pour cela, place ton pouce droit sur la masse (broche GND) et touche la broche P0 avec ton pouce gauche.
 
@@ -130,7 +130,7 @@ Maintenant que tu as programmé ton jeu, assemblons tout ensemble&nbsp;!
 
 ![screenshot](images/frustration-wand-bend.png)
 
-+ Tu peux ensuite entortiller les 2 extrémités du file ensemble.
++ Tu peux ensuite entortiller les 2 extrémités du fil ensemble.
 
 ![screenshot](images/frustration-wand-twist.png)
 
@@ -140,11 +140,11 @@ Maintenant que tu as programmé ton jeu, assemblons tout ensemble&nbsp;!
 ![screenshot](images/frustration-course-bend.png)
 
 + Si tu as du ruban adhésif isolant, enveloppe les 2 extrémités du circuit,
-  en laissant dépasser un peu de métal  à chacune des extrémités.
+  en laissant dépasser un peu de métal à chacune des extrémités.
 
 ![screenshot](images/frustration-course-tape.png)
 
-+ Enfile ta baguette sur le circuit, et pique une des extrémités du fil dans la pate à modeler pour que le circuit tienne debout tout seul.
++ Enfile ta baguette sur le circuit, et pique une des extrémités du fil dans la pâte à modeler pour que le circuit tienne debout tout seul.
 
 ![screenshot](images/frustration-course-putty.png)
 
@@ -173,5 +173,5 @@ Demande à tes amis d'essayer ton jeu.
 Si ton jeu est trop facile, tu peux le rendre plus corsé en &nbsp;:
 
 + Créant un circuit plus long,
-+ En ajoutant plus de virage dans ton circuit,
++ En ajoutant plus de virages dans ton circuit,
 + En réduisant la taille de la boucle de ta baguette.
