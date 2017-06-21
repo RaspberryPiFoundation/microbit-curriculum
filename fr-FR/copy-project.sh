@@ -3,11 +3,11 @@
 project=$1
 
 if [[ "${project}" == "" ]]; then
-	echo "init-project.sh project"
+	echo "copy-project.sh project"
 	exit 1
 fi
-fr_dir=${project}
-en_dir=../en-GB/${project}
+fr_dir=../${project}
+en_dir=../../en-GB/${project}
 if [ -f ${fr_dir} ]; then
 	echo "${fr_dir} existe déjà"
 	exit 2
