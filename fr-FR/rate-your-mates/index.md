@@ -9,7 +9,7 @@ project-type: sample
 
 # Introduction { .intro }
 
-Tu vas programmer ta micro:bit pour quelle dise si tu es compatible avec tes amis.
+Tu vas programmer ta micro:bit pour quelle indique si tu es compatible avec tes amis.
 
 __Instructions__&nbsp;: Si tu lis ceci en ligne, appuie sur __A+B__ de la micro:bit ci-dessous avec un ami pour découvrir la force de ton amitié.
 
@@ -23,14 +23,14 @@ Commençons le programme quand les boutons A et B sont pressés ensemble.
 
 ## Check-list de l'activité { .check }
 
-+ Va sur <a href="http://jumpto.cc/pxt-new" target="blank">jumpto.cc/pxt-new</a> pour démarre un nouveau projet dans l'éditeur PXT.
++ Va sur <a href="http://jumpto.cc/pxt-new" target="blank">jumpto.cc/pxt-new</a> pour démarrer un nouveau projet dans l'éditeur PXT.
   Appelle ton nouveau projet 'Note tes potes'.
 
 + Quand la micro:bit démarre, affiche une image pour montrer que les deux boutons doivent être pressés simultanément.
 
 ![screenshot](images/rate-start-img.png)
 
-Tu peux utiliser du texte qui défile ou bien image si tu préfères.
+Tu peux utiliser du texte qui défile ou bien une image si tu préfères.
 
 + Une note ne doit pas être affichée tant que __les deux boutons sont pressés__.
   Ajouter un événement `lorsque le bouton A+B est pressé` dans ton projet.
@@ -86,7 +86,7 @@ Affichons un coeur quand deux amis ont une grande amitié.
 ![screenshot](images/rate-if.png)
 
 + Tu veux afficher un coeur si l'`amitié` est est grande (disons supérieure à 75).
-  Pour cela, Pour cela, dans 'Logique' prend un bloc de comparaison et mets le dans ton `si`, puis sélectionne '>'&nbsp;:
+  Pour cela, dans 'Logique' prend un bloc de comparaison et met le dans ton `si`, puis sélectionne '>'&nbsp;:
 
 ![screenshot](images/rate-compare.png)
 
