@@ -1,5 +1,5 @@
 ---
-title: Diseuse de bonne aventure — Notes pour les responsables de Club
+title: Diseuse de bonne aventure — Notes pour les Responsables de Club
 ---
 
 # Introduction

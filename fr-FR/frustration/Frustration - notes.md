@@ -1,5 +1,5 @@
 ---
-title: Frustration — Notes pour les responses du Club
+title: Frustration — Notes pour les Responsables de Club
 ---
 
 # Introduction

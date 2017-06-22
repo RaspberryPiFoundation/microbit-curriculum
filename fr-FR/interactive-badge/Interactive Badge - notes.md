@@ -1,5 +1,5 @@
 ---
-title: Badge Interactif — Notes pour les Leaders du Club
+title: Badge Interactif — Notes pour les Responsables de Club
 ---
 
 # Introduction
