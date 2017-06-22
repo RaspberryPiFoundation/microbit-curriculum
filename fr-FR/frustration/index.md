@@ -27,13 +27,13 @@ Pour ce projet, tu auras besoin de&nbsp;:
 
 ![screenshot](images/frustration-items.png)
 
-# Etape 1: Stocker les échecs { .activity }
+# Etape 1&nbsp;: Stocker les échecs { .activity }
 
 Commençons par créer un endroit où stocker le nombre d'échecs.
 
 ## Check-list de l'activité { .check }
 
-+ Va sur <a href="http://jumpto.cc/pxt-new" target="blank">jumpto.cc/pxt-new</a> pour démarrer un nouveau projet dans l'éditeur PXT.
++ Va sur <a href="http://jumpto.cc/pxt-new" target="_blank">jumpto.cc/pxt-new</a> pour démarrer un nouveau projet dans l'éditeur PXT.
   Appelle ton nouveau projet 'Frustration'.
 
 + Supprime les blocs `toujours` et `au démarrage ` en les déplaçant sur la palette, dans la corbeille&nbsp;:
@@ -71,7 +71,7 @@ Ceci mettra à zéro le nombre d'échecs quand on appuie sur le bouton A.
 
 ![screenshot](images/frustration-fails-test.png)
 
-## Défi: Afficher une image { .challenge }
+## Défi&nbsp;: Afficher une image { .challenge }
 
 Sauras-tu afficher une image pendant 1 seconde (1000ms) avant que le nombre d'`échecs` soit affiché&nbsp;?
 

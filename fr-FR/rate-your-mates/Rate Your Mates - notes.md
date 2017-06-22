@@ -20,9 +20,9 @@ et le fichier .hex compilé peut être téléchargé en cliquant sur le lien 'Ma
 + Les opérateurs de comparaison `>` et `<`,
 + La répétition (boucle `répéter N fois pour`).
 
-Ce projet couvre des éléments du [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Ce projet couvre les éléments suivants du programme [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum)&nbsp;:
 
-+ [Utiliser des constructions de programmation basiques pour créer des programmes simples.](https://www.raspberrypi.org/curriculum/programming/creator)
++ [Utiliser des concepts basiques de programmation pour créer des programmes simples.](https://www.raspberrypi.org/curriculum/programming/creator)
 
 # Défis
 + "Mauvaise note" - Utiliser le bloc `si` et l'opérateur `<` pour afficher une croix ou un visage triste si la note est inférieure à 25.

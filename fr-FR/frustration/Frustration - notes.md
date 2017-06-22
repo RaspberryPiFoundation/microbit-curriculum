@@ -31,9 +31,9 @@ et le fichier .hex compilé peut être téléchargé en cliquant sur le lien 'Ma
 + Variables
 + Broches d'entrée/sortie
 
-Ce projet couvre des éléments du [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Ce projet couvre les éléments suivants du programme [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum)&nbsp;:
 
-+ [Utiliser des constructions de programmation basiques pour créer des programmes simples.](https://www.raspberrypi.org/curriculum/programming/creator)
++ [Utiliser des concepts basiques de programmation pour créer des programmes simples.](https://www.raspberrypi.org/curriculum/programming/creator)
 
 + [Utiliser des composants basiques numériques, analogiques, ou électromécaniques.](https://www.raspberrypi.org/curriculum/physical-computing/creator)
 

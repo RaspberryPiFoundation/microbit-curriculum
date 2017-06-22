@@ -23,7 +23,7 @@ Commençons le programme quand les boutons A et B sont pressés ensemble.
 
 ## Check-list de l'activité { .check }
 
-+ Va sur <a href="http://jumpto.cc/pxt-new" target="blank">jumpto.cc/pxt-new</a> pour démarrer un nouveau projet dans l'éditeur PXT.
++ Va sur <a href="http://jumpto.cc/pxt-new" target="_blank">jumpto.cc/pxt-new</a> pour démarrer un nouveau projet dans l'éditeur PXT.
   Appelle ton nouveau projet 'Note tes potes'.
 
 + Quand la micro:bit démarre, affiche une image pour montrer que les deux boutons doivent être pressés simultanément.

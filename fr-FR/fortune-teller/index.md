@@ -15,7 +15,7 @@ Pose simplement une question à ta micro:bit, et appuie sur un bouton pour déco
 __Instructions__&nbsp;: Si tu lis ceci en ligne, pose une question à la micro:bit ci-dessous et appuie sur __A__ pour voir sa réponse&nbsp;!
 
 <div class="trinket" style="width:400px;margin: 0 auto;">
-<div style="position:relative;height:0;padding-bottom:81.97%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://pxt.microbit.org/---run?id=18828-96734-17356-00995" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-scripts allow-same-origin" frameborder="0"></sirame></div>
+<div style="position:relative;height:0;padding-bottom:81.97%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://pxt.microbit.org/---run?id=18828-96734-17356-00995" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-scripts allow-same-origin" frameborder="0"></iframe></div>
 </div>
 
 # Etape 1&nbsp;: Faire défiler du texte { .activity }
@@ -24,7 +24,7 @@ Commençons par afficher les instructions sur ta micro:bit sous forme d'un texte
 
 ## Check-list de l'activité { .check }
 
-+ Va sur <a href="http://jumpto.cc/pxt-new" target="blank">jumpto.cc/pxt-new</a> pour démarrer un nouveau projet avec l'éditeur PXT.
++ Va sur <a href="http://jumpto.cc/pxt-new" target="_blank">jumpto.cc/pxt-new</a> pour démarrer un nouveau projet avec l'éditeur PXT.
   Appelle ton projet 'Diseuse de bonne aventure'.
 
 Tu peux supprimer le bloc `toujours` en le déplaçant sur la palette, tu n'en auras pas besoin pour ce projet.

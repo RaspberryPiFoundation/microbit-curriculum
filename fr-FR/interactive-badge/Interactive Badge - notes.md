@@ -20,9 +20,9 @@ Tu peux trouver une version complète du projet ici  [pxt.microbit.org/#pub:9041
 + Entrées (`lorsque le bouton est pressé`);
 + Séquence d'instructions.
 
-Ce projet couvre des éléments des thèmes suivants du [Cursus de construction numérique Raspberry Pi](http://rpf.io/curriculum)&nbsp;:
+Ce projet couvre les éléments suivants du programme [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum)&nbsp;:
 
-+ [Utiliser des constructions de programmation basiques pour créer des programmes simples.](https://www.raspberrypi.org/curriculum/programming/creator)
++ [Utiliser des concepts basiques de programmation pour créer des programmes simples.](https://www.raspberrypi.org/curriculum/programming/creator)
 
 # Défis
 + "Afficher un visage triste" - ajouter un nouvel événement  `lorsque le bouton est pressé`&nbsp;;
