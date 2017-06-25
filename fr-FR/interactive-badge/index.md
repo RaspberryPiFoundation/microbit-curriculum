@@ -23,7 +23,7 @@ Commençons par afficher une image sur la micro:bit quand elle démarre.
 
 ## Check-list de l'activité { .check }
 
-+ Va sur <a href="http://jumpto.cc/pxt-new" target="blank">jumpto.cc/pxt-new</a> pour démarrer un nouveau projet dans l'éditeur PXT. Appelle ton nouveau projet 'Badge interactif'.
++ Va sur <a href="http://jumpto.cc/pxt-new" target="_blank">jumpto.cc/pxt-new</a> pour démarrer un nouveau projet dans l'éditeur PXT. Appelle ton nouveau projet 'Badge interactif'.
 
 ![screenshot](images/badge-name.png)
 

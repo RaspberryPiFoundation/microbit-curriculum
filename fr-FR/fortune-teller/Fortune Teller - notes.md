@@ -1,5 +1,5 @@
 ---
-title: Diseuse de bonne aventure — Notes pour les responsables de Club
+title: Diseuse de bonne aventure — Notes pour les Responsables de Club
 ---
 
 # Introduction
@@ -22,9 +22,9 @@ et le fichier compilé .hex peuvent être téléchargés en cliquant sur le lien
 + Bloc `if` pour sélectionner une valeur
 + Bloc `random`
 
-Ce projet couvre des éléments du [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Ce projet couvre les éléments suivants du programme [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum)&nbsp;:
 
-+ [Utiliser des constructions de programmation basiques pour créer des programmes simples.](https://www.raspberrypi.org/curriculum/programming/creator)
++ [Utiliser des concepts basiques de programmation pour créer des programmes simples.](https://www.raspberrypi.org/curriculum/programming/creator)
 
 # Défis
 

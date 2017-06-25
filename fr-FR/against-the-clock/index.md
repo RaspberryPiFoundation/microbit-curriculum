@@ -9,7 +9,7 @@ project-type: sample
 
 # Introduction { .intro }
 
-Tu vas apprendre comment construire un chronomètre, pour que tu puisses l'utiliser pour défier tes amis&nsp;!
+Tu vas apprendre comment construire un chronomètre, pour que tu puisses l'utiliser pour défier tes amis&nbsp;!
 
 __Instructions__: Si tu lis ceci en ligne, appuye sur __A+B__ sur la micro:bit ci-dessous pour remettre ton chronomètre à 0, __A__ pour déclencher ton chronomètre, et __B__ pour l'arrêter.
 
@@ -17,7 +17,7 @@ __Instructions__: Si tu lis ceci en ligne, appuye sur __A+B__ sur la micro:bit c
 <div style="position:relative;height:0;padding-bottom:81.97%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://pxt.microbit.org/---run?id=55342-38825-28229-57221" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-scripts allow-same-origin" frameborder="0"></iframe></div>
 </div>
 
-# Etape 1&nsp;: Configurer ton chronomètre { .activity }
+# Etape 1&nbsp;: Configurer ton chronomètre { .activity }
 
 Remettons ton chronomètre à 0 quand les boutons A et B sont pressés simultannément.
 
@@ -27,7 +27,7 @@ Remettons ton chronomètre à 0 quand les boutons A et B sont pressés simultann
 
 + Efface les blocs `au démarrage` et `toujours`, tu n'en auras pas besoin.
 
-+ Ajoute un bloc `lorsque le bouton est pressé` et sélectionne `A+B`&nsp;:.
++ Ajoute un bloc `lorsque le bouton est pressé` et sélectionne `A+B`&nbsp;:.
 
 	![screenshot](images/clock-a+b.png)
 
@@ -35,13 +35,13 @@ Remettons ton chronomètre à 0 quand les boutons A et B sont pressés simultann
 
 	![screenshot](images/clock-var-time.png)
 
-+ Quand les boutons A et B sont pressés ensemble, tu veux que `temps` ait la valeur `0`. Pour cela, place un bloc `définir` dans ton bloc `lorsque le bouton A+B est pressé`&nsp;:
++ Quand les boutons A et B sont pressés ensemble, tu veux que `temps` ait la valeur `0`. Pour cela, place un bloc `définir` dans ton bloc `lorsque le bouton A+B est pressé`&nbsp;:
 
 	![screenshot](images/clock-reset-1.png)
 
-La valeur par défaut vaut zéro et c'est ce dont tu as besoin. 
+La valeur par défaut vaut zéro et c'est ce dont tu as besoin.
 
-+ Tu devrais aussi afficher le `temps`. Pour cela, place un bloc `montrer nombre` et met ta variable `temps` dedans&nsp;:
++ Tu devrais aussi afficher le `temps`. Pour cela, place un bloc `montrer nombre` et met ta variable `temps` dedans&nbsp;:
 
 	![screenshot](images/clock-reset-show.png)
 
@@ -49,13 +49,13 @@ La valeur par défaut vaut zéro et c'est ce dont tu as besoin.
 
 	![screenshot](images/clock-test-reset.png)
 
-# Etape 2&nsp;: Démarrer et arrêter ton chronomètre { .activity }
+# Etape 2&nbsp;: Démarrer et arrêter ton chronomètre { .activity }
 
 Utilisons le bouton A pour démarrer ton chronomètre, et le bouton B pour l'arrêter.
 
 ## Check-list de l'Activité { .check }
 
-+ Ton chronomètre doit démarrer quand le bouton A est appuyé. Ajoute un nouveau bloc `lorsque le bouton A est pressé` à ton script&nsp;:
++ Ton chronomètre doit démarrer quand le bouton A est appuyé. Ajoute un nouveau bloc `lorsque le bouton A est pressé` à ton script&nbsp;:
 
 	![screenshot](images/clock-a-pressed.png)
 
@@ -63,7 +63,7 @@ Utilisons le bouton A pour démarrer ton chronomètre, et le bouton B pour l'arr
 
 	![screenshot](images/clock-while.png)
 
-+ Place un bloc `pas`, de 'Logique' dans ton bloc `lorsque`&nsp;:
++ Place un bloc `pas`, de 'Logique' dans ton bloc `lorsque`&nbsp;:
 
 	![screenshot](images/clock-not.png)
 
@@ -81,7 +81,7 @@ Utilisons le bouton A pour démarrer ton chronomètre, et le bouton B pour l'arr
 
 	![screenshot](images/clock-change-time.png)
 
-+ Enfin, tu auras besoin d'afficher la variable `temps` mise à jour. Voici ce à quoi ton code devrait ressembler&nsp;:
++ Enfin, tu auras besoin d'afficher la variable `temps` mise à jour. Voici ce à quoi ton code devrait ressembler&nbsp;:
 
 	![screenshot](images/clock-update.png)
 
@@ -93,11 +93,11 @@ Utilisons le bouton A pour démarrer ton chronomètre, et le bouton B pour l'arr
 
 	![screenshot](images/clock-test.png)
 
-## Défie tes amis&nsp;! { .challenge }
+## Défie tes amis&nbsp;! { .challenge }
 Utilise le chronomètre pour défier tes amis. Par exemple, tu pourras voir le temps nécessaire pour qu'ils récitent l'alphabet à l'envers, ou pour qu'ils donnent le nom de 10 capitales.
 
-## Défi&nsp;: Compte à Rebours { .challenge }
-Peux tu créer un __nouveau__ chronomètre, qui compte à rebours jusqu'à 0 ? Voilà comment ton nouveau chronomètre devrait fonctionner&nsp;:
+## Défi&nbsp;: Compte à Rebours { .challenge }
+Peux tu créer un __nouveau__ chronomètre, qui compte à rebours jusqu'à 0 ? Voilà comment ton nouveau chronomètre devrait fonctionner&nbsp;:
 
 + Appuyer sur A et B simultanément doit donner la valeur 10 à ton `temps`
 
@@ -110,9 +110,9 @@ Peux tu créer un __nouveau__ chronomètre, qui compte à rebours jusqu'à 0 ? V
 + Appuyer sur le bouton A doit enlever 1 de ta variable `temps` jusqu'à atteindre 0. Cela signifie que tu auras besoin d'une boucle `lorsque` qui tourne aussi longtemps que `temps` est plus grand que (`>`) 0.
 
 	![screenshot](images/clock-challenge-3.png)
-	
+
 ## Chronomètre de précision { .challenge }
 As tu remarqué que ton chronomètre n'est pas très précis ? Cela est du au temps nécessaire pour afficher et faire défiler des nombres sur la micro:bit.
 
-Essaye d'ajuster la pause pour améliorer le chronométrage. Tu peux utiliser un bloc `si/alors` pour avoir une pause plus courte pour les nombres plus grands qui prennent plus de temps à faire défiler. 
+Essaye d'ajuster la pause pour améliorer le chronométrage. Tu peux utiliser un bloc `si/alors` pour avoir une pause plus courte pour les nombres plus grands qui prennent plus de temps à faire défiler.
 
