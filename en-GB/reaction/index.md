@@ -94,7 +94,7 @@ To do this, add a `while` loop from the 'Control' section. The `while` loop shou
 
 + Test your project. Your game should now display an image and then wait as long as buttons A __and__ B have __not__ been pressed.
 
-# Step 4: Who is the fastest? { .activity }
+# Step 3: Who is the fastest? { .activity }
 
 Let's find out who pressed their button first.
 
