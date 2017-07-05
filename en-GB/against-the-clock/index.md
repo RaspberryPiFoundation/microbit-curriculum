@@ -99,7 +99,7 @@ Use the timer to challenge your friends. For example, you could see how long it 
 ## Challenge: Counting Down { .challenge }
 Can you create a __new__ timer, that counts down to 0? Here's how your new timer should work:
 
-+ Pressing buttons A and B together should set your `timer` to 0
++ Pressing buttons A and B together should reset your `timer` to 0
 
 	![screenshot](images/clock-challenge-1.png)
 
