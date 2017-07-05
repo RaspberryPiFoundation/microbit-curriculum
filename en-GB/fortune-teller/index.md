@@ -27,7 +27,7 @@ Let's start by scrolling some text instructions on your micro:bit.
 
 You can delete the `forever` block by dragging it over the palette, you don't need it for this project. 
 
-+ Drag a `show text` block inside yo	ur `start` start.
++ Drag a `show string` block inside your `start` start.
 
 ![screenshot](images/fortune-press-a.png)
 
