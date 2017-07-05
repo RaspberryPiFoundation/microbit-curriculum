@@ -14,7 +14,7 @@ You are going to make a game in which players have to guide a wand along a cours
 __Instructions__: If you're reading this online, press __A__ on the micro:bit below to start the game, and then touch pin __0__ to make a connection.
 
 <div class="trinket" style="width:400px;margin: 0 auto;">
-<div style="position:relative;height:0;padding-bottom:81.97%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://pxt.microbit.org/---run?id=71088-38400-20107-39742" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-scripts allow-same-origin" frameborder="0"></iframe></div>
+<div style="position:relative;height:0;padding-bottom:81.97%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---run?id=71088-38400-20107-39742" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-scripts allow-same-origin" frameborder="0"></iframe></div>
 </div>
 
 For this project you'll need some additional items:
@@ -32,7 +32,7 @@ Let's start by creating a place to store the number of fails.
 
 ## Activity Checklist { .check }
 
-+ Go to <a href="http://jumpto.cc/pxt-new" target="_blank">jumpto.cc/pxt-new</a> to start a new project in the PXT editor. Call your new project 'Frustration'.
++ Go to <a href="http://jumpto.cc/pxt-new" target="_blank">jumpto.cc/pxt-new</a> to start a new project in the MakeCode (PXT) editor. Call your new project 'Frustration'.
 
 + Delete the `forever` and `start` blocks by dragging them to the palette:
 

@@ -14,7 +14,7 @@ You are going to make an interactive badge, that will show your mood to your fri
 __Instructions__: If you're reading this online, press __A__ on the micro:bit below to display a happy face, and __B__ to show a sad face.
 
 <div class="trinket" style="width:400px;margin: 0 auto;">
-<div style="position:relative;height:0;padding-bottom:81.97%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://pxt.microbit.org/---run?id=90418-17495-16581-63753" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-scripts allow-same-origin" frameborder="0"></iframe></div>
+<div style="position:relative;height:0;padding-bottom:81.97%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---run?id=90418-17495-16581-63753" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-scripts allow-same-origin" frameborder="0"></iframe></div>
 </div>
 
 # Step 1: Displaying an image { .activity }
@@ -23,7 +23,7 @@ Let's start by showing an image on your micro:bit when it's powered on.
 
 ## Activity Checklist { .check }
 
-+ Go to <a href="http://jumpto.cc/pxt-new" target="_blank">jumpto.cc/pxt-new</a> to start a new project in the PXT editor. Call your new project 'Interactive badge'.
++ Go to <a href="http://jumpto.cc/pxt-new" target="_blank">jumpto.cc/pxt-new</a> to start a new project in the MakeCode (PXT) editor. Call your new project 'Interactive badge'.
 
 ![screenshot](images/badge-name.png)
 

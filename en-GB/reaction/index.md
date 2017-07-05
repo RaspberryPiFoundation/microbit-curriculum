@@ -15,7 +15,7 @@ You are going to create a 2-player game to see who has the fastest reactions. Th
 __Instructions__: If you're reading this online, wait for an image to display on the micro:bit below and then press __A__ or __B__ first to see who is the fastest.
 
 <div class="trinket" style="width:400px;margin: 0 auto;">
-<div style="position:relative;height:0;padding-bottom:81.97%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://pxt.microbit.org/---run?id=50800-81674-84873-32898" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-scripts allow-same-origin" frameborder="0"></iframe></div>
+<div style="position:relative;height:0;padding-bottom:81.97%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---run?id=50800-81674-84873-32898" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-scripts allow-same-origin" frameborder="0"></iframe></div>
 </div>
 
 # Step 1: Wait for it! { .activity }
@@ -24,7 +24,7 @@ Let's start by displaying an image after a random amount of time.
 
 ## Activity Checklist { .check }
 
-+ Go to <a href="http://jumpto.cc/pxt-new" target="_blank">jumpto.cc/pxt-new</a> to start a new project in the PXT editor. Call your new project 'Reaction'. 
++ Go to <a href="http://jumpto.cc/pxt-new" target="_blank">jumpto.cc/pxt-new</a> to start a new project in the MakeCode (PXT) editor. Call your new project 'Reaction'. 
 
 + Before displaying an image, the game should wait for a random amount of time.
 
