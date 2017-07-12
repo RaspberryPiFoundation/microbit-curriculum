@@ -36,7 +36,7 @@ Drag a `pause` block into the `forever` block and change the pause time to 1000 
 
 ![screenshot](images/reaction-pause-random.png)
 
-Remember that 1000ms is 1 second, so there will be a pause of at least second up to a maximum of 5 seconds (1000 + 4000 ms).
+Remember that 1000ms is 1 second, so there will be a pause of at least 1 second up to a maximum of 5 seconds (1000 + 4000 ms).
 
 You can change the '1000' and '4000' numbers to change the minimum and maximum pause if you like. 
 
