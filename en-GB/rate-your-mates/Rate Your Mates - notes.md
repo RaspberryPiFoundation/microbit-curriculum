@@ -8,7 +8,7 @@ In this project, children will learn how to make use of variables and random num
 #Resources
 For this project, the [MakeCode (PXT)](http://jumpto.cc/mb-new) microbit editor should be used.
 
-You can find a completed version of this project at [makecode.microbit.org/#pub:57756-45098-79806-84952](https://makecode.microbit.org/#pub:57756-45098-79806-84952, and the compiled .hex file can be downloaded by clicking the 'Download Project Materials' link for this project, which contains:
+You can find a completed version of this project at [makecode.microbit.org/#pub:57756-45098-79806-84952](https://makecode.microbit.org/#pub:57756-45098-79806-84952), and the compiled .hex file can be downloaded by clicking the 'Download Project Materials' link for this project, which contains:
 
 + microbit-Rate-Your-Mates.hex
 
