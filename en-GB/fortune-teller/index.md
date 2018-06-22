@@ -9,7 +9,7 @@ project-type: sample
 
 # Introduction { .intro }
 
-You are going to code your micro:bit to read the future! Simply ask the micro:bit a quesition, and press a button to find out the answer!
+You are going to code your micro:bit to read the future! Simply ask the micro:bit a question, and press a button to find out the answer!
 
 __Instructions__: If you're reading this online, ask the micro:bit below a question and press __A__ to get your answer!
 
@@ -25,7 +25,7 @@ Let's start by scrolling some text instructions on your micro:bit.
 
 + Go to <a href="http://jumpto.cc/pxt-new" target="_blank">jumpto.cc/pxt-new</a> to start a new project in the MakeCode (PXT) editor. Call your new project 'Fortune Teller'.
 
-You can delete the `forever` block by dragging it over the palette, you don't need it for this project. 
+You can delete the `forever` block by dragging it over the palette, you don't need it for this project.
 
 + Drag a `show string` block inside your `start` start.
 
@@ -53,7 +53,7 @@ Let's get your micro:bit to make a decision by randomly choosing a number (`0` f
 
 ![screenshot](images/fortune-answer.png)
 
-+ Drag a `set` block fom Variables into your `on button A pressed` block and select the `answer` variable.
++ Drag a `set` block from Variables into your `on button A pressed` block and select the `answer` variable.
 
 ![screenshot](images/fortune-set.png)
 
@@ -97,7 +97,7 @@ Can you add code so that 'Yes' is displayed on your micro:bit __if__ the answer 
 
 You can even make your micro:bit say something like 'Maybe' or 'Ask again' if the answer is 2. To get this working, you'll also need to change your code to choose a random number between 0 and 2!
 
-Tip: You can right-click on an `if` block to dupicate the block and its contents. 
+Tip: You can right-click on an `if` block to duplicate the block and its contents.
 
 ![screenshot](images/fortune-random-2.png)
 
